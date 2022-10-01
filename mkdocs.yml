@@ -14,3 +14,6 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
+  features:
+    - navigation.instant
+    - navigation.tabs
