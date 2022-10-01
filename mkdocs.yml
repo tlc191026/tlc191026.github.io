@@ -18,4 +18,9 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.indexes
-    
+    - navigation.expand
+    - search.suggest
+    - serch.highlight
+    - navigation.tracking
+  language: zh
+
