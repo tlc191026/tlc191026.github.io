@@ -1,6 +1,6 @@
 # 我们在一起的第二年
 ## 2020.10.26
-&emsp;时间流转回到我们在一起一年的时候，那时我还瘦瘦的（呜呜呜），我们一起去天天二层庆祝一周年纪念日，宝宝送给我纪念相册和想一起做的100件事儿（其实并没有100件哈哈哈，很多都是表达爱意的话语呢，**想要和你一起慢慢变老，爱你宝宝，只要是你就好**😘）
+&emsp;&emsp;时间流转回到我们在一起一年的时候，那时我还瘦瘦的（呜呜呜），我们一起去天天二层庆祝一周年纪念日，宝宝送给我纪念相册和想一起做的100件事儿（其实并没有100件哈哈哈，很多都是表达爱意的话语呢，**想要和你一起慢慢变老，爱你宝宝，只要是你就好**😘）
 <center>
     <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqV7Iqw5*xFiQqmwuMUvvw40q9kNpqfdwPDDFXXI7rAv85948VbTF4Owg1NPEjY4yPtcOr.FgYg1HJlQugGUbv0M!/r" width = "40%">
     <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqV7Iqw5*xFiQqmwuMUvvw419ho7tKA.PukFrawFlZuB83LA2u6q0V3*kqtZ07uiDoBOxIavOl2lP3fu5Qo992fo!/r" width = "40%">
@@ -42,4 +42,17 @@
 右：那年双十一买了很多半熟芝士，都吃腻了
 
 ## 2020.11.20
-这是
+这是我们第一次尝试了十里河的七天优品，第一次去就永久拉黑了哈哈哈哈（不过我用了很久的透明水杯还是在那旁边的商店买的哈哈哈）  
+那时候我们一起“回家”真是最开心的事情，一起点外卖，一起放纵的日子。虽然有学业上的压力，但是和宝宝在一起，享受着忙里偷闲的快乐~
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqcCabuX.Daqxf2SAMzJf473BOFju3tdZ6ak8doeQkBgrVCmscMAiL6MfSDMOdhZJcw3OwgP*NsnAmzPBPkivl6E!/r" width = "30%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqbJL2gOv*ovSJWE0MPU2jwfYye59KO9MzIl*LCRBtiFvObqMVcJVXVsbY9T51AZ.OmPacLYHuzvfGdw83kVrORo!/r" width = "30%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqbJL2gOv*ovSJWE0MPU2jwcHRMddXPbxxir8azOVcB9SbLysYPFxGiZDn.XkxB4ZXVPPylpQZDtYDSxxcbx.b6c!/r" width = "23%">
+</center>
+
+## 2020.11.23
+直到现在也是我们最喜欢去的食堂，奥运二层。一些我们胖起来的切实证据哈哈哈哈
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqbJL2gOv*ovSJWE0MPU2jwezBP2IPEWhS3c*rbD.ZLxFnBzHeUMsOojaGmPUkoleyQIruU5RWOyNuhZrlNBOmVY!/r" width = "40%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqbJL2gOv*ovSJWE0MPU2jwe9eUTS0D*PtLhqkiRX93nfPIshG*bpU1CUWm5VMISbslNJLyvJKCyzTpZshKRRfik!/r" width = "40%">
+</center>
