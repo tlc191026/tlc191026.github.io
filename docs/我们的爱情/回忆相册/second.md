@@ -120,3 +120,36 @@
     <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqRzIwvWLGesVMhdGamjDS5ZfCjo1a7hj1GK6P.ofF6uczsZPabrKhofyt6RmPK*Ga844qPSs.cJGpcwZ822Bu*c!/r" width = "50%">
 </center>
 >我们在双人合作中第一次吃鸡！（卧龙凤雏请求出战哈哈哈哈）
+
+## 2021.2.21
+&emsp;&emsp;一起去滑雪喽！也是我第一次去滑雪，拍了很多好看的照片，以后我们还要一起征服更多的雪场hhh（连中级场摔倒了都要宝宝扶起来的桐桐突然豪言壮志哈哈哈）
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqdOYA4mlAllhfqmWqdibuXhu2YBAMnWVv.UIxmDQgUhLhMQeHWOdDTkyIUuL3D60c8XWWgUDifjd5.QPXpGKEho!/r" width = "40%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqWIKhzIMSSvCfhQLhID9WYIaVvTHRTfhZ4ZtAWq*8A6.c8rGRuGeIyRXI45c6zEn*iIE8Tq4HPgbmEzIrLP7YG0!/r" width = "40%">    
+</center>
+>我们在滑雪场的合照，被太阳照着睁不开眼睛哈哈哈哈哈🤣
+
+## 2021.2.28
+&emsp;&emsp;给宝宝买的爱心辣条礼包（没想到宝宝很快就吃完了😂）
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqa7fk6OBhjxAxSVKvkp3IvSYVeyW7rGh1GkR4JJzbEjX4uyH2ycC9s7Kg2KP3KyUnUGFu8u367e2xqKgTYwYJME!/r" width = "50%">
+</center>
+>卫龙辣条大礼包👍
+
+## 2021.3.21
+&emsp;&emsp;在一起512天，我非要说是二进制的整数，要庆祝一下，就拉着宝宝来天天二层吃饭饭啦哈哈哈哈哈～
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqcCabuX.Daqxf2SAMzJf472AuD7jOs3Vvl0KVjjJMJbPUwtFiu.s2vVkTt517QYxF59VEbTxJLxEQTd5aGFXS10!/r" width = "10.1%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqcCabuX.Daqxf2SAMzJf470bDpp.Q0HAKnpa47qtRN7W2i3cyIv9IdATnBURBY9ngyhKhzX9ZBVQATR7az8dne4!/r" width = "50%">
+</center>
+>第一次也是最后一次吃天天二层的烧烤
+
+## 2021.3.26－3.28
+&emsp;&emsp;回家喽，庆祝在一起17个月，点外卖看剧的快乐时光  
+&emsp;&emsp;这也是我们第一次来如家华驿，直接种草，之后也来了不少次
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqcZkFiXcZkAusGF1.AzQPl2uf4YL765A5MR3I6VjNnQaQY9Ayi5HN5eplyBdf.XyUWS.XDgubhOhofbZdWdvARU!/r" width = "40%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqcZkFiXcZkAusGF1.AzQPl0mSD2IFbJ0LTZkOCeSBmF650b5btxiXX.*HfdbDqYxMNvhqol*Q*Tez37G3L0Pli8!/r" width = "40%"></br>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqcZkFiXcZkAusGF1.AzQPl14WG0sabUvGw1ex51oPWzF0zsp.91htqvBtOzF5TOaIUUqjoqAHBL3vUBAJxJDM7w!/r" width = "40%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqcZkFiXcZkAusGF1.AzQPl1ErRqvwaMLmJvkibsefXV9NJkGBRg3NST05XrcYiLWssFu0GRZr8R53CXXrtXx52U!/r" width = "40%">
+</center>
