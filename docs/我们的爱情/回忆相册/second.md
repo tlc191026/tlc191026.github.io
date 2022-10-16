@@ -153,3 +153,32 @@
     <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqcZkFiXcZkAusGF1.AzQPl14WG0sabUvGw1ex51oPWzF0zsp.91htqvBtOzF5TOaIUUqjoqAHBL3vUBAJxJDM7w!/r" width = "40%">
     <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqcZkFiXcZkAusGF1.AzQPl1ErRqvwaMLmJvkibsefXV9NJkGBRg3NST05XrcYiLWssFu0GRZr8R53CXXrtXx52U!/r" width = "40%">
 </center>
+
+## 2021.3.28
+&emsp;&emsp;庆祝在一起520天！  
+&emsp;&emsp;去1727吃饭饭啦～
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqdtCaFeZ.6jtvdinfX2Fb1H07WY4sIODYvTJEQx82zZT9p322RwIrxYsrGHTCmh78kPu2ELm5MIOmd.Jq7r4zUQ!/r" width = "50%">
+</center>
+>最爱的蘑菇汉堡，和蘑菇鸡肉欧姆蕾！不过再也吃不到了😭
+
+## 2021.3.29
+&emsp;&emsp;萨纳河畔，左岸的咖啡。你手一杯，品尝我的美。留下唇印的嘴🎶  
+&emsp;&emsp;花店玫瑰，名字写错谁。告白气球，飞吹到对街。微笑在天上飞🎶（老实说，是不是跟着唱了起来哈哈哈哈）  
+&emsp;&emsp;在一起521天啦！！！  
+&emsp;&emsp;给宝宝了一个小惊喜，第一次送宝宝玫瑰花。（虽然她送了我玫瑰花，但昨晚我真的没睡她🎶脑海里咋都是奇怪的音乐闪过哈哈哈哈哈哈）  
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqVqUH5WUirKJSc9POC.*58DrIweY6Z*Md9hPCYtGwwC0i5fawwwtDgSSMgguD*XX0h5agmlY*Knf0mPkJFaSe6k!/r" width = "40%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqfSAvdBGHxgM1GZKEuXes7Yr65kjlAk*322BT3QavMUiRVX8NXhUjV0EsXSd0gUL6IwXYpSfYvZbZf297.AqBSQ!/r" width = "40%">    
+</center>
+>左：第一次给宝宝送玫瑰花，宝宝说之后再也不要买了🤣  
+右：味多美小熊猫蛋糕，味道还不错
+
+## 2021.4.2
+&emsp;&emsp;芜湖，送宝宝回家啦。在东关的味多美买了樱花新品~
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqfSAvdBGHxgM1GZKEuXes7ZgKYsW1HE4be3EcZ8M0ny23ij8u47rPDL6psW6eJN6.6CQVVdnVPPTbAFNeN9SkK8!/r" width = "50%">
+</center>
+>味多美的樱花🌸制品一点也不好吃😭
+
+
