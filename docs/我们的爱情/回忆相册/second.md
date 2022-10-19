@@ -1,5 +1,5 @@
 # 我们在一起的第二年
-## 2020.10.26
+## 2020.10.26——在一起一周年
 &emsp;&emsp;时间流转回到我们在一起一年的时候，那时我还瘦瘦的（呜呜呜），我们一起去天天二层庆祝一周年纪念日，宝宝送给我纪念相册和想一起做的100件事儿（其实并没有100件哈哈哈，很多都是表达爱意的话语呢，**想要和你一起慢慢变老，爱你宝宝，只要是你就好**😘）
 <center>
     <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqV7Iqw5*xFiQqmwuMUvvw40q9kNpqfdwPDDFXXI7rAv85948VbTF4Owg1NPEjY4yPtcOr.FgYg1HJlQugGUbv0M!/r" width = "40%">
@@ -62,7 +62,7 @@
 >左：那时候宝宝还很喜欢吃的大鸡腿  
 右：原来奥运二层很久之前就有酸菜了哈哈哈哈，感觉原来的菜看起来比现在的香很多
 
-## 2020.11.26
+## 2020.11.26——13个月
 &emsp;&emsp;在一起13个月啦，依然是去天天二层庆祝纪念日（原来我们就是这么吃腻的哈哈哈哈）
 <center>
     <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqa5QWYTK0cE2zxCpHp3MiStAHNEvn*fNhPHIb.iVVc4H.A4ZivDC2PcbD1nCiIvYUx33INZ3lWP2BulbMwu9mnk!/r" width = "40%">
@@ -98,10 +98,10 @@
 </center>
 >素丸子，酸汤肥牛和红烧排骨，宝宝很喜欢红烧排骨里的笋哈哈哈哈
 
-## 2020.12.26
+## 2020.12.26——14个月
 &emsp;&emsp;在一起14个月啦，虽然没有在空间上在一起，但是我感觉**我们的灵魂早已跨过了漫长的路途交织在一起~**
 <center>
-    <img src = "https://kssh2thumb.xmssdn.micloud.mi.com/2/1595215017082/get_thumbnail?sig=dEHEf7aLK-OH5HS0T7P77qqMtEU&data=cLPBvBHQyjPQv-TxzZIMppigk-tQyQRAu6L9TqHmOMTEIPUIDaLu95FxHtdOvXmpURYEVG6I9oP4ROnik3ZvL4_AuIE7NLcfUanuxpJdA-rYpFUNrNwPXm3kRV1DsnsAeC2Unu-8r9El8W2KYzqdTLx8STbWF3kVBcodggOG9eOpD9lK5S1Onrsn1AeS_HR5bZb63dd49nft35e6lt3CFQgVQOo7z2mb3zeXJkuzQdyB6MEY54s-il7HTkuHqsa_yFqSyt-Mt-oLskOZTRnEuh2Q1mvC7e4HTLSXrT7bSSKakBHr1GJQ4Vcg4LK0cDELiOqC4y5VwvE&ts=1665559719612&w=1080&h=1080&r=0&_cachekey=4dea55c7074ca0a6dc3680af8047843f" width = "30%">
+    <img src = "http://m.qpic.cn/psc?/V54OS9ge0cuRG80h9jqS1ZmHrA00QSuk/ruAMsa53pVQWN7FLK88i5sm3b.ceNegRcqY7XzMlHW5T9Ehsk0gzjwPlBnMgtG6InrCJT08F2YWflsmz5eqkVNxcaIwpmJTBGRNH7VEIe2Q!/mnull&bo=OARwCDgEcAgBByA!&rf=photolist&t=5" width = "30%">
 </center>
 >我们一起研究qq视频的搞怪特效哈哈哈哈哈
 
@@ -144,7 +144,7 @@
 </center>
 >第一次也是最后一次吃天天二层的烧烤
 
-## 2021.3.26－3.28
+## 2021.3.26－3.28——17个月
 &emsp;&emsp;回家喽，庆祝在一起17个月，点外卖看剧的快乐时光  
 &emsp;&emsp;这也是我们第一次来如家华驿，直接种草，之后也来了不少次
 <center>
@@ -154,7 +154,7 @@
     <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqcZkFiXcZkAusGF1.AzQPl1ErRqvwaMLmJvkibsefXV9NJkGBRg3NST05XrcYiLWssFu0GRZr8R53CXXrtXx52U!/r" width = "40%">
 </center>
 
-## 2021.3.28
+## 2021.3.28——520天
 &emsp;&emsp;庆祝在一起520天！  
 &emsp;&emsp;去1727吃饭饭啦～
 <center>
@@ -162,7 +162,7 @@
 </center>
 >最爱的蘑菇汉堡，和蘑菇鸡肉欧姆蕾！不过再也吃不到了😭
 
-## 2021.3.29
+## 2021.3.29——521天
 &emsp;&emsp;萨纳河畔，左岸的咖啡。你手一杯，品尝我的美。留下唇印的嘴🎶  
 &emsp;&emsp;花店玫瑰，名字写错谁。告白气球，飞吹到对街。微笑在天上飞🎶（老实说，是不是跟着唱了起来哈哈哈哈）  
 &emsp;&emsp;在一起521天啦！！！  
@@ -181,4 +181,64 @@
 </center>
 >味多美的樱花🌸制品一点也不好吃😭
 
+## 2021.4.6
+&emsp;&emsp;第二次打卡action咖啡厅，吃到了好吃的牛排~
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqRzIwvWLGesVMhdGamjDS5YoAgZd09ReFE4oO0rpsy7vArKni2WtZp4CyM1cP4JZ1OAU3Vn8gML4ygwX8KjDu0U!/r" width = "30%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqRzIwvWLGesVMhdGamjDS5Yvjje5C4IbUxHmp9AJoyIDOVZa2j82Vr2n.yytjO6B9SIIZIc30yyaGtFiLdxSbo8!/r" width = "30%"></br>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqRzIwvWLGesVMhdGamjDS5ZvQqdcJcdWKLA6Qjxe4Fqi5pUu73efEpQdhyai7hVLoLymtnOHXSo*jNEtuYYNkRk!/r" width = "60%"></br>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqRzIwvWLGesVMhdGamjDS5YRdzMEKyKXszpXAYuREcjKgNQGDHA6AAeZor6JqsEQfNFWQif5vydDQU78IyflhEI!/r" width = "30%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqa6q63IMXi9MPF2fCYH0ibZQiJArHaPaRVzbewY7xv.uO6CwM.v7i40gEPTujf7HqvJZAO4fTKb3hh.KTFwYzx0!/r" width = "30%"></br>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqa6q63IMXi9MPF2fCYH0ibbtKHaanVJcprJwcxmQGf.xtz*rQNYU*dfyyTQnjqWsZlIckiKdxB6T8R.yLaSWFk8!/r" width = "30%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqa6q63IMXi9MPF2fCYH0ibbYT2c32j.j0NdEYFWGiwpaPQJSREC5Sik6zbdbHPnunGWH0L8frmMLL8wDLqFQ758!/r" width = "30%">
+</center>
 
+## 2021.4.13
+&emsp;&emsp;美食园二层的炒酸奶，那天咱们坐在那儿等了一个小时才吃上hhh
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqRzIwvWLGesVMhdGamjDS5bRiCOIGs49VJ*ZzYxB1YZtJYN4dNQUz4MIxoS.HrYnj51j48cGad2bdSak2ynmmXs!/r" width = "20%">
+</center>
+
+## 2021.4.26——18个月
+&emsp;&emsp;18个月啦，我们还是选择了去天天二层庆祝哈哈哈哈，熟悉的番茄牛腩
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqbfbdWZjmHAZOziCxGOxhY0nZDO5Qv6PvJPhi2F5ujKfj3NRXLionAvgp8LmyyYKyXppQXl6jU34GhX3Nu8RCko!/r" width = "50%">
+</center>
+
+## 2021.5.7-5.9
+&emsp;&emsp;第一次去尝试喆啡，下了地铁之后走了好远，不过环境确实很不错呢~
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqSylFewQZtHXl2XCWFvNuAooSEsYxkjuYJPm1cKsXImT3qG52Wm36z0EcVPqNN0cT5b981tp0*1IFyG*LEYpBJM!/r" width = "40%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqeplIz7Dh3SI36NF.9wt5jlsfez*ORtLXDqOojGrwQ6lJiIgEpRH6FcR7rBmLoJ5HV**fwTB7j9VZgSZq6SxJxQ!/r" width = "40%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqeplIz7Dh3SI36NF.9wt5jm.rTYVoTQfVMPKAmMm7a.xi8iipyVumEgveImDhUXYbpGs*QRbNeTgy8u*MbdIDjA!/r" width = "8.1%"><br/>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqeplIz7Dh3SI36NF.9wt5jnR.ukiN2MJ2xF5w*qpOO*qAuZlVKBpDPEDQYKM6Xb65MAEnYcMvR16.m2Bs1nWSdA!/r" width = "45%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqeplIz7Dh3SI36NF.9wt5jmxpO7emRKsY924EeYjl4D52lXGKhJWrZL2fOmIZ.KWEnnVJbLtZ2YEWytRXUEh0eg!/r" width = "45%"><br/>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqeL1NDRyUeRIlTQteG9kW6b1Y7E.KcubsQJMDB8TVJ0S1zan5pgF7uoxXcLpCYI7ixA7MWpdM90rO3lgXIQNeWw!/r" width = "45%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqeL1NDRyUeRIlTQteG9kW6Y595cJgoqVD0L1rEz24U1bPihr9WFb97rgM0QGZvqrcOkc4UdJGPzS4Al9lVyycjo!/r" width = "45%">
+</center>
+
+## 2021.5.16
+&emsp;&emsp;我们似乎发现了省钱小妙招，又去了另一家喆啡哈哈哈哈，这家就是那个双床有床特别好的那个
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqSylFewQZtHXl2XCWFvNuAqqGR688.APq4j4nwp4o1HSGsl*jIZTDT9.ExbskWocawgfbT.3Kantk2jKpQk.8xs!/r" width = "10.1%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqV1a6P.VeQPsNivHGhuqodQYG6mhxx8ukok5ZG6lKuuzOgqkMlKPXkCnuzCdtja4sLEmAjr6D7dx856cjX6537E!/r" width = "50%">    
+</center>
+
+## 2021.5.17
+&emsp;&emsp;勤劳小桐，爱心水果服务嘻嘻🥰
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqV1a6P.VeQPsNivHGhuqodQqTV8mPG9XS3*XXpu.Ah8z9M55ySJNrqYaBHISEJDCmTJ0ntYBWDV8AHJ8Ksex7NM!/r" width = "10.1%">
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqSylFewQZtHXl2XCWFvNuArV0KRpZR32UByyTnwMIwqS1oHybyMws5K6e6o0K3Hi6bYnb4zptP9o7WrcbQg53Sc!/r" width = "50%">    
+</center>
+
+## 2021.5.19
+&emsp;&emsp;一起去礼堂听相声，除了后来考研那一阵比较忙，传笑堂的相声咱们基本上每一次都不会落下~
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqSylFewQZtHXl2XCWFvNuAoUseMLNrSRCd76XZmc9NxASGvx9azbJF6NmQ8d9z0r2tOa0dCWvmTI09V7BY0do7A!/r" width = "50%">
+</center>
+
+## 2021.5.23
+&emsp;&emsp;在昌平东关找到的相当不错的韩式烤肉，下次还要去那里吃！
+<center>
+    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqXBvEYKVRnsM.YXCWcj6jMADx9Rjdp3XzXa5fud62LozwTgEjp6hB40HeP8qyYGQX2hbmddncKB1wRzzw6hmRxY!/r" width = "50%">
+</center>
