@@ -9,18 +9,18 @@
 
 &emsp;&emsp;那天宝宝中午还要开党支部的会议，午饭吃的还挺着急的（跨时空的心疼宝宝）  
 &emsp;&emsp;晚上的时候我们还一起去听了乐理课的音乐展示，真的好巧，那个房间就是**只属于我们的那个日子1026。**（人真的好多，我们只能站在最后一排听QAQ）
-<center>
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqf3VcoWE2P2HVx1LX4pGqlS2b56q9.irvUnlqqP.5lphKrR45XGJNxOhO9Xjrd.Ty3h.tMw7KXRNsacbGynYC3g!/r" width = "40%">
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqf3VcoWE2P2HVx1LX4pGqlQoFnErLkme2RwqftYYn2mLwRxBMh4czMFBKAQXsbbLWkY0sAtRe5WnqHj7etPZuGo!/r" width = "40%">
-</center>
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.10.26乐理.jpg" alt="乐理" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.10.26展示现场.jpg" alt="展示现场" style="max-width:40%; display:inline-block">
+</div>
 >左：乐理教室的门 右：音乐展示现场
 
 ## 2020.10.31-11.5
 &emsp;&emsp;那一阵我们真的很喜欢在四教的大阶梯教室呆着，带很多很多的零食，学累了就吃（其实并没有怎么学习hhh）
-<center>
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqf3VcoWE2P2HVx1LX4pGqlS3tHOVcDrtVnU7DM35mfSevZiJAgx.Dnw2mJp4r*GMrA4r4.1.LOs4CkfzPdmEXD0!/r" width = "30%">
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqSETuL5Zf*OwOkCd7ptP2EW1rPZhd0PeHJZ4j7z.*eWrPGDdbqDm6Qu4AxaWcrX4XdS*nfLXSQmNUc.hpgauezk!/r" width = "40%">
-</center>
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.10.31-11.5四教零食.jpg" alt="四教零食" style="max-width:30%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.10.31-11.5爱心水果.jpg" alt="爱心水果" style="max-width:40%; display:inline-block">
+</div>
 >左：海量零食hhh 右：我给宝宝准备的爱心水果
 
 &emsp;&emsp;宝宝还偷拍我哈哈哈哈（**有你真好**）
