@@ -24,30 +24,30 @@
 >左：海量零食hhh 右：我给宝宝准备的爱心水果
 
 &emsp;&emsp;宝宝还偷拍我哈哈哈哈（**有你真好**）
-<center>
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqf3VcoWE2P2HVx1LX4pGqlQrQ1hij5aV3ZXahNwMQHhJEQept2EZFe3AabXhAKvJEIfVb6hCfAOZBhfWZ7FPV00!/r" width = "40%">
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqSETuL5Zf*OwOkCd7ptP2EWhZa4Csg55b3EY6CpF369Yi2pjbvtWTlHXDlLsZs.EnSsx2ylxNwXirAjy9BhMBrY!/r" width = "40%">
-</center>
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.10.31-11.5偷拍.jpg" alt="偷拍" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.10.31-11.5也是我.jpg" alt="也是我" style="max-width:40%; display:inline-block">
+</div>
 >有两张图片，一张是我，另一张也是我
 
 ## 2020.11.11-11.12
 &emsp;&emsp;双十一的时候我们也要来庆祝一下，庆祝我们彼此**互相陪伴，给予温暖。**  
 &emsp;&emsp;那时候学校的咖啡厅还叫1727，那时候的我们还很青涩，只是**在一起的时候就忍不住的许下很多很多承诺。**
-<center>
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqSETuL5Zf*OwOkCd7ptP2EWPUclHckGSLIxR6G5ArB4zO.H3ikx3hccvLf8fkExScBPHWYpWxFpfqvp8anoX1IU!/r" width = "40%">
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqSETuL5Zf*OwOkCd7ptP2EVD1lynShJ5Rz6OpapHc.BbABQHjkELsi0yGl3wtCfJsbLDWCeg2QnofT.w.JaO3ZQ!/r" width = "40%">
-</center>
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.11.11-11.12庆祝.jpg" alt="庆祝" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.11.11-11.12半熟芝士.jpg" alt="半熟芝士" style="max-width:40%; display:inline-block">
+</div>
 >左：1727的饭饭，第一次点榴莲披萨，不出所料的榴莲糖的味道呢哈哈哈哈  
 右：那年双十一买了很多半熟芝士，都吃腻了
 
 ## 2020.11.20
 &emsp;&emsp;这是我们第一次尝试了十里河的七天优品，第一次去就永久拉黑了哈哈哈哈（不过我用了很久的透明水杯还是在那旁边的商店买的哈哈哈）  
 &emsp;&emsp;那时候我们一起“回家”真是最开心的事情，一起点外卖，一起放纵的日子。虽然有学业上的压力，但是**和宝宝在一起，享受着忙里偷闲的快乐~**
-<center>
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqcCabuX.Daqxf2SAMzJf473BOFju3tdZ6ak8doeQkBgrVCmscMAiL6MfSDMOdhZJcw3OwgP*NsnAmzPBPkivl6E!/r" width = "30%">
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqbJL2gOv*ovSJWE0MPU2jwfYye59KO9MzIl*LCRBtiFvObqMVcJVXVsbY9T51AZ.OmPacLYHuzvfGdw83kVrORo!/r" width = "30%">
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqbJL2gOv*ovSJWE0MPU2jwcHRMddXPbxxir8azOVcB9SbLysYPFxGiZDn.XkxB4ZXVPPylpQZDtYDSxxcbx.b6c!/r" width = "23%">
-</center>
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.11.20养生粥.jpg" alt="养生粥" style="max-width:30%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.11.20饺子关东煮.jpg" alt="饺子关东煮" style="max-width:30%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.11.20元气森林.jpg" alt="元气森林" style="max-width:23%; display:inline-block">
+</div>
 >左：KFC和养生粥  
 中：饺子和关东煮  
 右：没有尝过的元气森林新口味，葡萄的味道还可以，益生菌的就一言难尽了哈哈哈
