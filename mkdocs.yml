@@ -20,6 +20,6 @@ theme:
     - navigation.indexes
     - navigation.expand
     - search.suggest
-    - serch.highlight
+    - search.highlight
     - navigation.tracking
   language: zh
