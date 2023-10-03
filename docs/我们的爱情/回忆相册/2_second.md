@@ -106,33 +106,33 @@
 
 ## 2021.2.15  
  &emsp;&emsp;宝宝第一次见我的哥哥嫂嫂们，那时候我就已经下定决心这辈子都要和宝宝在一起（我记得我没有和宝宝说过，那时候我的哥哥们问我是不是认真的想走下去，我特别坚定的说是哈哈哈哈）
-<center>
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqfSAvdBGHxgM1GZKEuXes7Z7vx4VlYS2JAz8p3GjSHV.el3oJ9HwsSbkLMeUGIcCnC8dbhyfgSot4Uif0cwOjPM!/r" width = "40%">
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqfSAvdBGHxgM1GZKEuXes7b2OGkIIbUWY3Fv57MnrWydBeJnoFIDvs56iyUgV3P9EhqvdmLyUT7M4ZZu82sk7X0!/r" width = "40%">    
-</center>
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2021.2.15和哥哥姐姐见面3.jpg" alt="市井气息" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2021.2.15和哥哥姐姐见面2.jpg" alt="合影" style="max-width:40%; display:inline-block">
+</div>
 >左：这是我哥哥的店旁边的那条街，人群熙熙攘攘，市井气息非常的浓郁，就仿佛我们也是融入其中的一部分，一对老夫老妻hhh
 右：下午我们还一起去唱了歌（绝美宝宝，斯哈斯哈）
 
 ## 2021.2.18
 &emsp;&emsp;那段时间我们在过年的氛围中，还没有那么大的考研压力，每天都过得无忧无虑好不开心。娜娜带着咱们一起玩起了吃鸡，宝宝被带的瘾还挺大的哈哈哈，几乎每天都要玩。
-<center>
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqRzIwvWLGesVMhdGamjDS5ZfCjo1a7hj1GK6P.ofF6uczsZPabrKhofyt6RmPK*Ga844qPSs.cJGpcwZ822Bu*c!/r" width = "50%">
-</center>
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2021.2.18和平精英吃鸡.jpg" alt="双人吃鸡！" style="max-width:50%; display:inline-block">
+</div>
 >我们在双人合作中第一次吃鸡！（卧龙凤雏请求出战哈哈哈哈）
 
 ## 2021.2.21
 &emsp;&emsp;一起去滑雪喽！也是我第一次去滑雪，拍了很多好看的照片，以后我们还要一起征服更多的雪场hhh（连中级场摔倒了都要宝宝扶起来的桐桐突然豪言壮志哈哈哈）
-<center>
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqdOYA4mlAllhfqmWqdibuXhu2YBAMnWVv.UIxmDQgUhLhMQeHWOdDTkyIUuL3D60c8XWWgUDifjd5.QPXpGKEho!/r" width = "40%">
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqWIKhzIMSSvCfhQLhID9WYIaVvTHRTfhZ4ZtAWq*8A6.c8rGRuGeIyRXI45c6zEn*iIE8Tq4HPgbmEzIrLP7YG0!/r" width = "40%">    
-</center>
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2021.2.21滑雪.jpg" alt="滑雪合照" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2021.2.21滑雪2.jpg" alt="滑雪合照" style="max-width:40%; display:inline-block">
+</div>
 >我们在滑雪场的合照，被太阳照着睁不开眼睛哈哈哈哈哈🤣
 
 ## 2021.2.28
 &emsp;&emsp;给宝宝买的爱心辣条礼包（没想到宝宝很快就吃完了😂）
-<center>
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqa7fk6OBhjxAxSVKvkp3IvSYVeyW7rGh1GkR4JJzbEjX4uyH2ycC9s7Kg2KP3KyUnUGFu8u367e2xqKgTYwYJME!/r" width = "50%">
-</center>
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2021.2.28爱心辣条.jpg" alt="爱心辣条" style="max-width:50%; display:inline-block">
+</div>
 >卫龙辣条大礼包👍
 
 ## 2021.3.21
