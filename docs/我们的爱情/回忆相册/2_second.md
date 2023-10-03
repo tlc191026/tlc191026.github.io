@@ -54,10 +54,10 @@
 
 ## 2020.11.23
 &emsp;&emsp;直到现在也是我们最喜欢去的食堂，奥运二层，一些我们胖起来的切实证据哈哈哈哈~
-<center>
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqbJL2gOv*ovSJWE0MPU2jwezBP2IPEWhS3c*rbD.ZLxFnBzHeUMsOojaGmPUkoleyQIruU5RWOyNuhZrlNBOmVY!/r" width = "40%">
-    <img src = "http://r.photo.store.qq.com/psc?/V13biTRq036Exl/bqQfVz5yrrGYSXMvKr.cqbJL2gOv*ovSJWE0MPU2jwe9eUTS0D*PtLhqkiRX93nfPIshG*bpU1CUWm5VMISbslNJLyvJKCyzTpZshKRRfik!/r" width = "40%">
-</center>
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.11.23奥运二层大鸡腿.jpg" alt="奥运二层大鸡腿" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/2020.11.23奥运二层酸菜.jpg" alt="奥运二层酸菜" style="max-width:40%; display:inline-block">
+</div>
 >左：那时候宝宝还很喜欢吃的大鸡腿  
 右：原来奥运二层很久之前就有酸菜了哈哈哈哈，感觉原来的菜看起来比现在的香很多
 
