@@ -15,7 +15,10 @@
 /* 添加媒体查询以在移动设备上更改背景位置 */
 @media (max-width: 768px) {
     body {
-        background-position: left center; /* 水平居左，垂直居中 */
+    background-image: url('https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/others/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center; /* 水平居左，垂直居中 */
     }
 }
 
