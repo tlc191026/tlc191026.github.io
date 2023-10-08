@@ -14,7 +14,7 @@ body {
 /* 在移动设备上更改背景图片的位置 */
 @media (max-width: 768px) {
     body {
-        background-position: left center; /* 水平居左，垂直居中 */
+        background-position: left top 20%; /* 水平居左，垂直居中 */
     }
 }
 </style>
