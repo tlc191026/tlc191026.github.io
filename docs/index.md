@@ -13,7 +13,7 @@ body {
 /* 在移动设备上更改背景图片的位置 */
 @media (max-width: 768px) {
     body {
-        background-position: right 60% top; /* 水平居左，垂直居中 */
+        background-position: right 100% top; /* 水平居左，垂直居中 */
     }
 }
 </style>
