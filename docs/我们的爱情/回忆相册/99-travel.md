@@ -14,7 +14,16 @@
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.3-首都机场.jpg" alt="首都机场合影" style="max-width:40%; display:inline-block">
 </div>
 
-&emsp;&emsp;长达14h的空中飞行是我们牵手走过最长的一段路，掠过俄罗斯上空，横跨整个亚欧大陆，抵达相距8175km的伦敦希思罗机场。挚友阴天儿和第一次见面的张馨月（阴天儿女友）早早的就在机场等候。初次来到异国他乡的新奇，对于旅程的期待，以及我与阴天儿多年未见的想念交杂在一起，复杂的心情难以言表。
+&emsp;&emsp;长达14h的空中飞行是我们牵手走过最长的一段路，掠过俄罗斯上空，横跨整个亚欧大陆，抵达相距8175km的伦敦希思罗机场。挚友阴天儿和第一次见面的张馨月（阴天儿女友）早早的就在机场等候。初次来到异国他乡的新奇，对于旅程的期待，以及我与阴天儿多年未见的想念交杂在一起，复杂的心情难以言表。刚刚落地的第一天我们就感受到了英国夏令时的魅力，即使当地时间已经晚上21点，天空只是刚刚有些昏沉。不长不短的一段车程，相比之后的英国火车乘车体验完全是天壤之别，不过那些都是后话了。
+&emsp;&emsp;7月的英国气温刚好，南安普顿的
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿1.jpg" alt="南安普顿" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿2.jpg" alt="南安普顿" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿3.jpg" alt="南安普顿" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿4.jpg" alt="南安普顿" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿5.jpg" alt="南安普顿" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿6.jpg" alt="南安普顿" style="max-width:40%; display:inline-block">
+</div>
 
 ### ·Brighton
 
