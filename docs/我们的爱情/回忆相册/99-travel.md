@@ -9,10 +9,12 @@
 
 ### ·Southampton
 
-&emsp;&emsp;**2023年7月3日**在一切都准备就绪之后，我们正式踏上去程的飞机，前往旅途的第一站**南安普顿**。
+&emsp;&emsp;**2023年7月3日**在一切都准备就绪之后，我们正式踏上去程的飞机，前往旅途的第一站**南安普顿**（**ps**：还记得当时和导师打了声儿招呼就直接开溜了，根本没有意识到有什么不妥hhh）。
 <div style="text-align:center">
-  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/second/travel/UK/2023.7.3-首都机场.jpg" alt="首都机场合影" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.3-首都机场.jpg" alt="首都机场合影" style="max-width:40%; display:inline-block">
 </div>
+
+&emsp;&emsp;长达14h的飞行，掠过俄罗斯上空，横跨整个亚欧大陆，抵达相距8175km的伦敦希思罗机场。挚友阴天儿和第一次见面的
 
 ### ·Brighton
 
