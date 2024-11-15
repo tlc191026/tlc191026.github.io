@@ -20,7 +20,11 @@
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿1.jpg" alt="南安普顿1" style="max-width:40%; display:inline-block">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿2.jpg" alt="南安普顿2" style="max-width:40%; display:inline-block">
 </div>
-&emsp;&emsp;7月份的英国气温刚好，南安普顿的气候令人心旷神怡。在抵达宿舍的第二天，友人便带我们穿梭于这个陌生的城市，讲述着他们在这个城市留下的故事。充满异域色彩的英式建筑第一次以这种形式呈现在我们眼前，这里的一切都是新奇的。
+&emsp;&emsp;7月份的英国气温刚好，南安普顿的气候令人心旷神怡。在抵达宿舍的第二天，友人便带我们穿梭于这个陌生的城市，讲述着他们在这个城市留下的故事。
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿citywalk.jpg" alt="南安普顿citywalk" style="max-width:40%; display:inline-block">
+</div>
+充满异域色彩的英式建筑第一次以这种形式呈现在我们眼前，这里的一切都是新奇的。
 <div style="text-align:center">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿3.jpg" alt="南安普顿3" style="max-width:40%; display:inline-block">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿4.jpg" alt="南安普顿4" style="max-width:40%; display:inline-block">
