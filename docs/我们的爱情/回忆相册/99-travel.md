@@ -24,16 +24,22 @@
 <div style="text-align:center">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿citywalk.jpg" alt="南安普顿citywalk" style="max-width:40%; display:inline-block">
 </div>
-充满异域色彩的英式建筑第一次以这种形式呈现在我们眼前，这里的一切都是新奇的。
+&emsp;&emsp;充满异域色彩的英式建筑第一次以这种形式呈现在我们眼前，这里的一切都是新奇的。
 <div style="text-align:center">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿3.jpg" alt="南安普顿3" style="max-width:40%; display:inline-block">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿4.jpg" alt="南安普顿4" style="max-width:40%; display:inline-block">
 </div>
-&emsp;&emsp;飞鸟与海鸥共同组成了这座沿海城市的一道特色景观，宿舍前的街心公园总是能看到它们跃动的身影。
+&emsp;&emsp;飞鸟与海鸥共同组成了这座沿海城市一道独特的景观，宿舍前的街心公园总是能看到它们跃动的身影。
 <div style="text-align:center">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿5.jpg" alt="南安普顿5" style="max-width:40%; display:inline-block">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿6.jpg" alt="南安普顿6" style="max-width:40%; display:inline-block">
 </div>
+&emsp;&emsp;即使远在异国他乡，中国人的足迹也遍布每个角落，谁又能想到抵达英国的第二天我们在“家”中一起吃了一顿正宗的海底捞火锅。
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿火锅食材.jpg" alt="南安普顿火锅食材" style="max-width:40%; display:inline-block">
+  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿火锅.jpg" alt="南安普顿火锅" style="max-width:40%; display:inline-block">
+</div>
+
 
 ### ·*Brighton*
 
@@ -46,6 +52,8 @@
 ### ·*Edinburgh*
 
 ### ·*London*
+
+### ·*External-钟*
 
 ## **中国**
 
