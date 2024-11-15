@@ -9,18 +9,24 @@
 
 ### ·*Southampton*
 
-&emsp;&emsp;**2023年7月3日**在一切都准备就绪之后，我们正式踏上去程的飞机，前往旅途的第一站**南安普顿**（**ps**：还记得当时和导师打了声儿招呼就直接开溜了，根本没有意识到有什么不妥hhh）。
+&emsp;&emsp;**2023年7月3日**在一切都准备就绪之后，我们正式踏上去程的飞机，前往旅途的第一站**Southampton**（**ps**：还记得当时和导师打了声儿招呼就直接开溜了，根本没有意识到有什么不妥hhh）。
 <div style="text-align:center">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.3-首都机场.jpg" alt="首都机场合影" style="max-width:40%; display:inline-block">
 </div>
 
-&emsp;&emsp;长达14h的空中飞行是我们牵手走过最长的一段路，掠过俄罗斯上空，横跨整个亚欧大陆，抵达相距8175km的伦敦希思罗机场。挚友阴天儿和第一次见面的张馨月（阴天儿女友）早早的就在机场等候。初次来到异国他乡的新奇，对于旅程的期待，以及我与阴天儿多年未见的想念交杂在一起，复杂的心情难以言表。刚刚落地的第一天我们就感受到了英国夏令时的魅力，即使当地时间已经晚上21点，天空只是刚刚有些昏沉。不长不短的一段车程，相比之后的英国火车乘车体验完全是天壤之别，不过那些都是后话了。
-&emsp;&emsp;7月的英国气温刚好，南安普顿的气候令人心旷神怡。下榻张馨月同学的宿舍，我们短暂的拥有了独属于我们两个人的小窝。
+&emsp;&emsp;长达14h的空中飞行是我们牵手走过最长的一段路，掠过俄罗斯上空，横跨整个亚欧大陆，抵达相距8175km的伦敦希思罗机场。挚友阴天儿和第一次见面的张馨月（阴天儿女友）早早的就在机场等候。初次来到异国他乡的新奇，对于旅程的期待，以及我与阴天儿多年未见的想念交杂在一起，复杂的心情难以言表。刚刚落地的第一天我们就感受到了英国夏令时的魅力，即使当地时间已经晚上21点，天空只是刚刚有些昏沉。不长不短的一段车程我们最终抵达了路程的第一站**Southampton**（相比之后的英国火车乘车体验完全是天壤之别，不过这些都是后话了）。
+&emsp;&emsp;下榻张馨月同学的宿舍，我们短暂的拥有了独属于我们两个人的小窝。最让我们兴奋的是一个宽阔的公共厨房，从厨房的大窗向外眺望能够鸟瞰整个南安普顿城。
 <div style="text-align:center">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿1.jpg" alt="南安普顿1" style="max-width:40%; display:inline-block">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿2.jpg" alt="南安普顿2" style="max-width:40%; display:inline-block">
+</div>
+&emsp;&emsp;7月份的英国气温刚好，南安普顿的气候令人心旷神怡。在抵达宿舍的第二天，友人便带我们穿梭于这个陌生的城市，讲述着他们在这个城市留下的故事。充满异域色彩的英式建筑第一次以这种形式呈现在我们眼前，这里的一切都是新奇的。
+<div style="text-align:center">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿3.jpg" alt="南安普顿3" style="max-width:40%; display:inline-block">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿4.jpg" alt="南安普顿4" style="max-width:40%; display:inline-block">
+</div>
+&emsp;&emsp;飞鸟与海鸥共同组成了这座沿海城市的一道特色景观，宿舍前的街心公园总是能看到它们跃动的身影。
+<div style="text-align:center">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿5.jpg" alt="南安普顿5" style="max-width:40%; display:inline-block">
   <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/travel/UK/2023.7.4-南安普顿6.jpg" alt="南安普顿6" style="max-width:40%; display:inline-block">
 </div>
@@ -36,3 +42,8 @@
 ### ·*Edinburgh*
 
 ### ·*London*
+
+## **中国**
+
+### ·*乌兰察布*
+
