@@ -473,7 +473,7 @@ body {
 }
 
 .site-password-icon {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -502,7 +502,7 @@ body {
   padding: 0.8rem 1rem;
   border: 2px solid #e0e0e0;
   border-radius: 25px;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   outline: none;
   transition: border-color 0.2s ease;
   box-sizing: border-box;
@@ -518,7 +518,7 @@ body {
   color: white;
   border: none;
   border-radius: 25px;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-sizing: border-box;
