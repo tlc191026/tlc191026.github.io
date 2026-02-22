@@ -13,7 +13,8 @@
       "Bash(ls:*)",
       "Bash(git mv:*)",
       "Bash(git commit:*)",
-      "Bash(git push)"
+      "Bash(git push)",
+      "Bash(git checkout:*)"
     ]
   }
 }
