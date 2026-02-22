@@ -1,0 +1,524 @@
+/* ====================================================
+   桐&辰爱情网站 - 自定义样式
+   ==================================================== */
+
+/* ====================
+   1. CSS变量定义
+   ==================== */
+:root {
+  /* 动画时间 */
+  --transition-fast: 0.2s;
+  --transition-normal: 0.3s;
+  --transition-slow: 0.5s;
+
+  /* 阴影 */
+  --shadow-soft: 0 4px 20px rgba(63, 81, 181, 0.15);
+  --shadow-hover: 0 8px 30px rgba(63, 81, 181, 0.25);
+}
+
+/* ====================
+   2. 全局动画定义
+   ==================== */
+
+/* 淡入动画 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 从左侧滑入 */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 心跳动画 */
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.15);
+  }
+}
+
+/* 浮动动画 */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* 缩放弹入 */
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* 心形弹出 */
+@keyframes heartPop {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1) translateY(-30px);
+    opacity: 0;
+  }
+}
+
+/* ====================
+   3. 背景美化
+   ==================== */
+
+/* 全局背景 - 微妙的渐变 */
+body {
+  background: linear-gradient(135deg,
+    rgba(63, 81, 181, 0.05) 0%,
+    rgba(255, 255, 255, 0.95) 50%,
+    rgba(255, 152, 0, 0.05) 100%);
+  background-attachment: fixed;
+}
+
+/* 暗色模式背景 - 使用主题默认背景 */
+[data-md-color-scheme="slate"] body {
+  background: transparent;
+}
+
+/* ====================
+   4. 导航栏美化
+   ==================== */
+
+/* 顶部导航栏 */
+.md-header {
+  backdrop-filter: blur(10px);
+  transition: all var(--transition-normal) ease;
+}
+
+/* 导航栏滚动阴影 */
+.md-header--shadow {
+  box-shadow: var(--shadow-hover);
+}
+
+/* Tab导航 */
+.md-tabs {
+  transition: all var(--transition-normal) ease;
+}
+
+.md-tabs__item {
+  transition: transform var(--transition-fast) ease;
+}
+
+.md-tabs__item:hover {
+  transform: translateY(-2px);
+}
+
+/* 侧边栏导航 */
+.md-nav__link {
+  transition: all var(--transition-fast) ease;
+  border-radius: 8px;
+  margin: 2px 0;
+}
+
+.md-nav__link:hover {
+  background: rgba(63, 81, 181, 0.1);
+  transform: translateX(5px);
+}
+
+.md-nav__link--active {
+  background: linear-gradient(90deg,
+    rgba(63, 81, 181, 0.15) 0%,
+    transparent 100%);
+  border-left: 3px solid var(--md-primary-fg-color);
+}
+
+/* ====================
+   5. 内容区域美化
+   ==================== */
+
+/* 文章内容区域 */
+.md-content__inner {
+  padding: 2rem;
+  max-width: 900px;
+}
+
+/* 页面加载动画 */
+.md-content {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* 标题样式 */
+.md-typeset h1 {
+  position: relative;
+  padding-bottom: 0.5rem;
+  animation: slideInLeft 0.6s ease-out;
+}
+
+.md-typeset h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg,
+    var(--md-primary-fg-color),
+    var(--md-accent-fg-color));
+  border-radius: 2px;
+}
+
+/* 二级标题 */
+.md-typeset h2 {
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 1rem;
+  transition: all var(--transition-normal) ease;
+}
+
+.md-typeset h2:hover {
+  border-left-width: 8px;
+  padding-left: 1.2rem;
+}
+
+/* 段落美化 */
+.md-typeset p {
+  line-height: 1.8;
+  margin: 1.5em 0;
+}
+
+/* 引用块美化 */
+.md-typeset blockquote {
+  border-left: 4px solid var(--md-primary-fg-color);
+  background: linear-gradient(135deg,
+    rgba(63, 81, 181, 0.05) 0%,
+    rgba(255, 152, 0, 0.05) 100%);
+  padding: 1rem 1.5rem;
+  border-radius: 0 12px 12px 0;
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.md-typeset blockquote::before {
+  content: '"';
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  font-size: 80px;
+  color: rgba(63, 81, 181, 0.15);
+  font-family: serif;
+}
+
+/* 列表美化 */
+.md-typeset li {
+  margin: 0.5rem 0;
+}
+
+.md-typeset li::marker {
+  color: var(--md-primary-fg-color);
+}
+
+/* ====================
+   6. 图片效果
+   ==================== */
+
+/* 图片基础样式 */
+.md-typeset img {
+  border-radius: 12px;
+  box-shadow: var(--shadow-soft);
+  transition: all var(--transition-normal) ease;
+  cursor: zoom-in;
+}
+
+/* 图片hover效果 */
+.md-typeset img:hover {
+  transform: scale(1.02) translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+/* ====================
+   7. 滚动淡入动画
+   ==================== */
+
+.fade-in-element {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ====================
+   8. 灯箱样式
+   ==================== */
+
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.lightbox-overlay.active {
+  display: flex;
+  opacity: 1;
+}
+
+.lightbox-container {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.lightbox-image {
+  max-width: 100%;
+  max-height: 85vh;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+  animation: zoomIn 0.3s ease;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.lightbox-close:hover {
+  transform: rotate(90deg);
+}
+
+.lightbox-caption {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+/* ====================
+   9. 点击爱心效果
+   ==================== */
+
+.click-heart {
+  position: fixed;
+  font-size: 20px;
+  pointer-events: none;
+  z-index: 9999;
+  animation: heartPop 0.8s ease-out forwards;
+}
+
+/* ====================
+   10. 计时器样式
+   ==================== */
+
+.love-timer {
+  background: linear-gradient(135deg,
+    rgba(63, 81, 181, 0.1),
+    rgba(255, 152, 0, 0.1));
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+  box-shadow: 0 4px 20px rgba(63, 81, 181, 0.15);
+}
+
+.timer-display {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-family: 'Courier New', monospace;
+  flex-wrap: wrap;
+}
+
+.timer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 60px;
+}
+
+.timer-item strong {
+  font-size: 2.5rem;
+  color: var(--md-primary-fg-color);
+  text-shadow: 0 2px 10px rgba(63, 81, 181, 0.3);
+}
+
+.timer-item small {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.timer-separator {
+  font-size: 2rem;
+  color: var(--md-primary-fg-color);
+  margin: 0 0.25rem;
+}
+
+.timer-message {
+  margin-top: 1rem;
+  color: var(--md-primary-fg-color);
+  font-style: italic;
+}
+
+/* ====================
+   11. 按钮美化
+   ==================== */
+
+.md-button {
+  border-radius: 25px;
+  padding: 0.8rem 2rem;
+  transition: all var(--transition-normal) ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.md-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent);
+  transition: left 0.5s ease;
+}
+
+.md-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(63, 81, 181, 0.4);
+}
+
+.md-button:hover::before {
+  left: 100%;
+}
+
+/* 返回顶部按钮 */
+.md-top {
+  border-radius: 50%;
+  transition: all var(--transition-normal) ease;
+}
+
+.md-top:hover {
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 8px 20px rgba(63, 81, 181, 0.4);
+}
+
+/* ====================
+   12. 页脚美化
+   ==================== */
+
+.md-footer-meta {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* ====================
+   13. 响应式设计
+   ==================== */
+
+/* 平板设备 */
+@media screen and (max-width: 960px) {
+  .timer-item strong {
+    font-size: 2rem;
+  }
+}
+
+/* 手机设备 */
+@media screen and (max-width: 768px) {
+  .md-content__inner {
+    padding: 1rem;
+  }
+
+  .md-typeset h1 {
+    font-size: 1.8rem;
+  }
+
+  .love-timer {
+    padding: 1.5rem 1rem;
+  }
+
+  .timer-item {
+    min-width: 50px;
+  }
+
+  .timer-item strong {
+    font-size: 1.5rem;
+  }
+
+  .timer-separator {
+    font-size: 1.2rem;
+  }
+
+  /* 移动端关闭图片hover效果 */
+  .md-typeset img:hover {
+    transform: none;
+  }
+}
+
+/* 小屏手机 */
+@media screen and (max-width: 480px) {
+  .timer-display {
+    gap: 0.25rem;
+  }
+
+  .timer-item strong {
+    font-size: 1.2rem;
+  }
+
+  .timer-item small {
+    font-size: 0.7rem;
+  }
+
+  .timer-separator {
+    font-size: 1rem;
+  }
+}
