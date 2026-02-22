@@ -66,15 +66,14 @@ function initLightbox() {
     lightbox.innerHTML = `
       <div class="lightbox-container">
         <img class="lightbox-image" src="" alt="">
-        <button class="lightbox-close">&times;</button>
         <div class="lightbox-caption"></div>
       </div>
     `;
     document.body.appendChild(lightbox);
 
-    // 关闭灯箱
+    // 关闭灯箱（点击背景或图片）
     lightbox.addEventListener('click', function(e) {
-      if (e.target === lightbox || e.target.classList.contains('lightbox-close')) {
+      if (e.target === lightbox || e.target.classList.contains('lightbox-image')) {
         lightbox.classList.remove('active');
         document.body.style.overflow = '';
       }

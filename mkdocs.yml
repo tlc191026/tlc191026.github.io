@@ -27,6 +27,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/extra.js
+  - javascripts/image-crypto.js
 
 # Markdown扩展
 markdown_extensions:
