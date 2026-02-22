@@ -8,7 +8,12 @@
       "Bash(set:*)",
       "Bash(PYTHONIOENCODING=utf-8 python:*)",
       "Bash(git fetch:*)",
-      "Bash(git ls-tree:*)"
+      "Bash(git ls-tree:*)",
+      "Bash(git add:*)",
+      "Bash(ls:*)",
+      "Bash(git mv:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)"
     ]
   }
 }
