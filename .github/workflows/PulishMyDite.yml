@@ -8,7 +8,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -17,8 +17,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material
+      - name: Install dependencies
+        run: |
+          pip install "mkdocs<2.0" mkdocs-material
       - run: mkdocs gh-deploy --force
