@@ -6,7 +6,9 @@
       "Bash(pip3 install:*)",
       "Bash(python:*)",
       "Bash(set:*)",
-      "Bash(PYTHONIOENCODING=utf-8 python:*)"
+      "Bash(PYTHONIOENCODING=utf-8 python:*)",
+      "Bash(git fetch:*)",
+      "Bash(git ls-tree:*)"
     ]
   }
 }
