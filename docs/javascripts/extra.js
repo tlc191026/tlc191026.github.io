@@ -191,8 +191,4 @@ function initTimer() {
 // 初始化
 // ====================
 
-// 初始加载
 document.addEventListener('DOMContentLoaded', initPage);
-
-// 监听 MkDocs Material 页面切换事件
-document.addEventListener('DOMContentSwitch', initPage);

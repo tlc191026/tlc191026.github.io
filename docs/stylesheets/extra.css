@@ -111,11 +111,6 @@ body {
   background-attachment: fixed;
 }
 
-/* 暗色模式背景 - 使用主题默认背景 */
-[data-md-color-scheme="slate"] body {
-  background: transparent;
-}
-
 /* ====================
    4. 导航栏美化
    ==================== */
