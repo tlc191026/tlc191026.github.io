@@ -469,6 +469,7 @@ body {
   max-width: 360px;
   width: 90%;
   animation: zoomIn 0.3s ease;
+  box-sizing: border-box;
 }
 
 .site-password-icon {
@@ -491,16 +492,20 @@ body {
 .site-password-input-group {
   display: flex;
   gap: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .site-password-input {
   flex: 1;
+  min-width: 0;
   padding: 0.8rem 1rem;
   border: 2px solid #e0e0e0;
   border-radius: 25px;
   font-size: 1rem;
   outline: none;
   transition: border-color 0.2s ease;
+  box-sizing: border-box;
 }
 
 .site-password-input:focus {
@@ -508,7 +513,7 @@ body {
 }
 
 .site-password-submit {
-  padding: 0.8rem 1.5rem;
+  padding: 0.8rem 1.2rem;
   background: linear-gradient(135deg, #3F51B5, #FF9800);
   color: white;
   border: none;
@@ -516,6 +521,9 @@ body {
   font-size: 1rem;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .site-password-submit:hover {
