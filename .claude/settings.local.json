@@ -15,7 +15,8 @@
       "Bash(git commit:*)",
       "Bash(git push)",
       "Bash(git checkout:*)",
-      "Bash(cmd //c \"del /f /q \\\\?\\\\D:\\\\Github_project\\\\tlc191026.github.io\\\\nul\")"
+      "Bash(cmd //c \"del /f /q \\\\?\\\\D:\\\\Github_project\\\\tlc191026.github.io\\\\nul\")",
+      "Bash(node:*)"
     ]
   }
 }
