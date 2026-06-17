@@ -157,27 +157,11 @@ function initTimer() {
 
       timerContainer.innerHTML = `
         <div class="timer-display">
-          <span class="timer-item">
-            <strong>${days}</strong>
-            <small>天</small>
-          </span>
-          <span class="timer-separator">:</span>
-          <span class="timer-item">
-            <strong>${String(hours).padStart(2, '0')}</strong>
-            <small>时</small>
-          </span>
-          <span class="timer-separator">:</span>
-          <span class="timer-item">
-            <strong>${String(minutes).padStart(2, '0')}</strong>
-            <small>分</small>
-          </span>
-          <span class="timer-separator">:</span>
-          <span class="timer-item">
-            <strong>${String(seconds).padStart(2, '0')}</strong>
-            <small>秒</small>
-          </span>
+          <span class="timer-days">${days}</span>
+          <span class="timer-days-label">天</span>
+          <span class="timer-clock">${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}</span>
         </div>
-        <p class="timer-message">我们在一起的美好时光 💕</p>
+        <p class="timer-message">我们在一起的美好时光</p>
       `;
     }
 

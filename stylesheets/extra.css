@@ -2,6 +2,12 @@
    桐&辰爱情网站 - 自定义样式
    ==================================================== */
 
+/* ====================================================
+   文字字体：霞鹜文楷（正文）+ Noto Serif SC（标题）
+   通过 jsDelivr CDN 引入；离线/无代理时浏览器自动回落到下方 fallback 列表
+   ==================================================== */
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css');
+
 /* ====================
    1. CSS变量定义
    ==================== */
@@ -11,9 +17,49 @@
   --transition-normal: 0.3s;
   --transition-slow: 0.5s;
 
-  /* 阴影 */
-  --shadow-soft: 0 4px 20px rgba(63, 81, 181, 0.15);
-  --shadow-hover: 0 8px 30px rgba(63, 81, 181, 0.25);
+  /* —— 桐&辰主题色 —— */
+  /* 朝霞粉为主，蜜橘金为辅，象牙白为底 */
+  --love-primary: #e8838f;
+  --love-primary-rgb: 232, 131, 143;
+  --love-primary-deep: #d96975;
+  --love-accent: #f0a868;
+  --love-accent-rgb: 240, 168, 104;
+  --love-cream: #f9f3ec;
+  --love-ink: #3a2e2c;
+
+  /* 覆盖 mkdocs-material 主题颜色变量 */
+  --md-primary-fg-color: var(--love-primary);
+  --md-primary-fg-color--light: #f4b8be;
+  --md-primary-fg-color--dark: var(--love-primary-deep);
+  --md-accent-fg-color: var(--love-accent);
+
+  /* 字体优先级：网络可用时显示 LXGW WenKai；不可用回落到系统/Noto */
+  --md-text-font: 'LXGW WenKai', 'Noto Serif SC', 'PingFang SC',
+                  'Microsoft YaHei', 'Hiragino Sans GB', serif;
+
+  /* 阴影 - 减质感版本，无彩色，仅极轻 */
+  --shadow-soft: 0 1px 4px rgba(0, 0, 0, 0.06);
+  --shadow-hover: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* 夜读模式：暖灰底 + 朝霞粉提亮 */
+[data-md-color-scheme="slate"] {
+  --love-primary: #f29eaa;
+  --love-primary-rgb: 242, 158, 170;
+  --love-primary-deep: #e8838f;
+  --love-accent: #f5b87f;
+  --love-accent-rgb: 245, 184, 127;
+  --love-cream: #2a1f1d;
+  --love-ink: #ede4dc;
+
+  --md-primary-fg-color: var(--love-primary);
+  --md-accent-fg-color: var(--love-accent);
+  --md-default-bg-color: #1f1a18;
+  --md-default-fg-color: var(--love-ink);
+  --md-default-fg-color--light: #d6c8be;
+  --md-default-fg-color--lighter: #a89788;
+  --md-typeset-color: var(--love-ink);
+  --md-typeset-a-color: var(--love-primary);
 }
 
 /* ====================
@@ -105,9 +151,18 @@
 /* 全局背景 - 微妙的渐变 */
 body {
   background: linear-gradient(135deg,
-    rgba(63, 81, 181, 0.05) 0%,
+    rgba(var(--love-primary-rgb), 0.05) 0%,
     rgba(255, 255, 255, 0.95) 50%,
-    rgba(255, 152, 0, 0.05) 100%);
+    rgba(var(--love-accent-rgb), 0.05) 100%);
+  background-attachment: fixed;
+}
+
+/* 夜读模式：把中间高光换成暖深底，避免发白 */
+[data-md-color-scheme="slate"] body {
+  background: linear-gradient(135deg,
+    rgba(var(--love-primary-rgb), 0.10) 0%,
+    rgba(31, 26, 24, 0.96) 50%,
+    rgba(var(--love-accent-rgb), 0.10) 100%);
   background-attachment: fixed;
 }
 
@@ -147,13 +202,13 @@ body {
 }
 
 .md-nav__link:hover {
-  background: rgba(63, 81, 181, 0.1);
+  background: rgba(var(--love-primary-rgb), 0.1);
   transform: translateX(5px);
 }
 
 .md-nav__link--active {
   background: linear-gradient(90deg,
-    rgba(63, 81, 181, 0.15) 0%,
+    rgba(var(--love-primary-rgb), 0.15) 0%,
     transparent 100%);
   border-left: 3px solid var(--md-primary-fg-color);
 }
@@ -195,14 +250,8 @@ body {
 
 /* 二级标题 */
 .md-typeset h2 {
-  border-left: 4px solid var(--md-primary-fg-color);
-  padding-left: 1rem;
-  transition: all var(--transition-normal) ease;
-}
-
-.md-typeset h2:hover {
-  border-left-width: 8px;
-  padding-left: 1.2rem;
+  border-left: 3px solid var(--md-primary-fg-color);
+  padding-left: 0.8rem;
 }
 
 /* 段落美化 */
@@ -215,8 +264,8 @@ body {
 .md-typeset blockquote {
   border-left: 4px solid var(--md-primary-fg-color);
   background: linear-gradient(135deg,
-    rgba(63, 81, 181, 0.05) 0%,
-    rgba(255, 152, 0, 0.05) 100%);
+    rgba(var(--love-primary-rgb), 0.05) 0%,
+    rgba(var(--love-accent-rgb), 0.05) 100%);
   padding: 1rem 1.5rem;
   border-radius: 0 12px 12px 0;
   margin: 1.5rem 0;
@@ -229,7 +278,7 @@ body {
   top: -20px;
   left: 10px;
   font-size: 80px;
-  color: rgba(63, 81, 181, 0.15);
+  color: rgba(var(--love-primary-rgb), 0.15);
   font-family: serif;
 }
 
@@ -248,15 +297,14 @@ body {
 
 /* 图片基础样式 */
 .md-typeset img {
-  border-radius: 12px;
+  border-radius: 6px;
   box-shadow: var(--shadow-soft);
-  transition: all var(--transition-normal) ease;
+  transition: box-shadow var(--transition-normal) ease;
   cursor: zoom-in;
 }
 
-/* 图片hover效果 */
+/* 图片hover效果：仅阴影变化，不再位移/缩放 */
 .md-typeset img:hover {
-  transform: scale(1.02) translateY(-5px);
   box-shadow: var(--shadow-hover);
 }
 
@@ -339,52 +387,53 @@ body {
 
 .love-timer {
   background: linear-gradient(135deg,
-    rgba(63, 81, 181, 0.1),
-    rgba(255, 152, 0, 0.1));
-  border-radius: 20px;
-  padding: 2rem;
+    rgba(var(--love-primary-rgb), 0.1),
+    rgba(var(--love-accent-rgb), 0.1));
+  border-radius: 12px;
+  padding: 1.5rem;
   text-align: center;
   margin: 2rem 0;
-  box-shadow: 0 4px 20px rgba(63, 81, 181, 0.15);
 }
 
 .timer-display {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  gap: 0.5rem;
-  font-family: 'Courier New', monospace;
-  flex-wrap: wrap;
+  gap: 0.4rem;
+  font-family: 'Noto Serif SC', serif;
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 
-.timer-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 60px;
-}
-
-.timer-item strong {
-  font-size: 2.5rem;
+.timer-days {
+  font-size: 2.4rem;
+  font-weight: 600;
   color: var(--md-primary-fg-color);
-  text-shadow: 0 2px 10px rgba(63, 81, 181, 0.3);
+  letter-spacing: 0.02em;
 }
 
-.timer-item small {
-  font-size: 0.8rem;
-  color: #666;
-}
-
-.timer-separator {
-  font-size: 2rem;
+.timer-days-label {
+  font-size: 0.85rem;
   color: var(--md-primary-fg-color);
-  margin: 0 0.25rem;
+  opacity: 0.85;
+  margin-right: 0.6rem;
+}
+
+.timer-clock {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 1.05rem;
+  color: var(--love-ink);
+  opacity: 0.65;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
 }
 
 .timer-message {
-  margin-top: 1rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0;
   color: var(--md-primary-fg-color);
   font-style: italic;
+  font-size: 0.85rem;
 }
 
 /* ====================
@@ -392,34 +441,15 @@ body {
    ==================== */
 
 .md-button {
-  border-radius: 25px;
-  padding: 0.8rem 2rem;
-  transition: all var(--transition-normal) ease;
-  position: relative;
-  overflow: hidden;
-}
-
-.md-button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg,
-    transparent,
-    rgba(255, 255, 255, 0.3),
-    transparent);
-  transition: left 0.5s ease;
+  border-radius: 6px;
+  padding: 0.6rem 1.4rem;
+  transition: background-color var(--transition-fast) ease, color var(--transition-fast) ease;
 }
 
 .md-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(63, 81, 181, 0.4);
-}
-
-.md-button:hover::before {
-  left: 100%;
+  /* 减质感：去掉位移和大色阴影，仅靠颜色反馈 */
+  transform: none;
+  box-shadow: none;
 }
 
 /* 返回顶部按钮 */
@@ -430,7 +460,7 @@ body {
 
 .md-top:hover {
   transform: translateY(-5px) scale(1.1);
-  box-shadow: 0 8px 20px rgba(63, 81, 181, 0.4);
+  box-shadow: 0 8px 20px rgba(var(--love-primary-rgb), 0.4);
 }
 
 /* ====================
@@ -442,100 +472,115 @@ body {
 }
 
 /* ====================
-   13. 网站密码保护
+   13. 独立登录页（A 方案：极简卡片）
    ==================== */
 
-.site-password-overlay {
+/* 登录页：去掉 mkdocs-material 的页头/页脚装饰，用一张满版浅色 */
+body:has(.login-page) {
+  background: var(--love-cream);
+}
+
+[data-md-color-scheme="slate"] body:has(.login-page) {
+  background: #1f1a18;
+}
+
+/* 隐藏 header/sidebar/tabs，登录页只剩中央卡片 */
+.login-page ~ * {
+  display: none !important;
+}
+
+.login-page,
+.login-page * {
+  box-sizing: border-box;
+}
+
+.login-page {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, rgba(63, 81, 181, 0.95), rgba(255, 152, 0, 0.9));
+  inset: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
-  z-index: 99999;
-  opacity: 1;
-  transition: opacity 0.3s ease;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 1000;
 }
 
-.site-password-modal {
-  background: white;
-  padding: 2.5rem;
-  border-radius: 20px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-  text-align: center;
-  max-width: 360px;
-  width: 90%;
-  animation: zoomIn 0.3s ease;
-  box-sizing: border-box;
-}
-
-.site-password-icon {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.site-password-title {
-  font-size: 1.5rem;
-  color: var(--md-primary-fg-color, #3F51B5);
-  margin: 0 0 0.5rem 0;
-}
-
-.site-password-desc {
-  color: #666;
-  margin: 0 0 1.5rem 0;
-  font-size: 0.9rem;
-}
-
-.site-password-input-group {
-  display: flex;
-  gap: 0.5rem;
+.login-card {
   width: 100%;
-  box-sizing: border-box;
+  max-width: 320px;
+  padding: 2rem 1.75rem;
+  background: var(--md-default-bg-color, #fff);
+  border: 1px solid rgba(var(--love-primary-rgb), 0.18);
+  border-radius: 12px;
 }
 
-.site-password-input {
-  flex: 1;
-  min-width: 0;
-  padding: 0.8rem 1rem;
-  border: 2px solid #e0e0e0;
-  border-radius: 25px;
-  font-size: 0.6rem;
-  outline: none;
-  transition: border-color 0.2s ease;
-  box-sizing: border-box;
+[data-md-color-scheme="slate"] .login-card {
+  background: #2a221f;
+  border-color: rgba(var(--love-primary-rgb), 0.25);
 }
 
-.site-password-input:focus {
-  border-color: var(--md-primary-fg-color, #3F51B5);
+.login-title {
+  margin: 0 0 0.25rem 0;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.08em;
+  color: var(--love-ink);
+  text-align: center;
 }
 
-.site-password-submit {
-  padding: 0.8rem 1.2rem;
-  background: linear-gradient(135deg, #3F51B5, #FF9800);
-  color: white;
-  border: none;
-  border-radius: 25px;
-  font-size: 0.6rem;
-  cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  box-sizing: border-box;
-  flex-shrink: 0;
-  white-space: nowrap;
-}
-
-.site-password-submit:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 20px rgba(63, 81, 181, 0.4);
-}
-
-.site-password-error {
-  color: #f44336;
+.login-sub {
+  margin: 0 0 1.5rem 0;
   font-size: 0.85rem;
-  margin-top: 1rem;
-  display: none;
+  color: rgba(var(--love-primary-rgb), 0.85);
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.login-input {
+  width: 100%;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid rgba(var(--love-primary-rgb), 0.25);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--love-ink);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color var(--transition-fast) ease;
+  font-family: inherit;
+}
+
+.login-input:focus {
+  border-color: var(--love-primary);
+}
+
+.login-submit {
+  width: 100%;
+  padding: 0.65rem;
+  background: var(--love-primary);
+  color: white;
+  border: 1px solid var(--love-primary);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color var(--transition-fast) ease;
+}
+
+.login-submit:hover {
+  background: var(--love-primary-deep);
+  border-color: var(--love-primary-deep);
+}
+
+.login-error {
+  margin: 0.75rem 0 0 0;
+  min-height: 1.2em;
+  font-size: 0.8rem;
+  color: #c64140;
+  text-align: center;
 }
 
 /* ====================
@@ -598,4 +643,199 @@ body {
   .timer-separator {
     font-size: 1rem;
   }
+}
+
+/* ====================================================
+   15. 首页 Hero 区块 —— 杂志半屏拼接（A1）
+   左侧 4:5 竖图卡片 + 右侧文字栏，象牙底 / 黑字 / 朝霞粉点缀
+   ==================================================== */
+
+.hero {
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+  align-items: center;
+  gap: 3rem;
+  max-width: 1100px;
+  margin: 1rem auto 3rem;
+  padding: 1rem 0;
+}
+
+.hero-image {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  background-image: url('https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/others/background.jpg');
+  background-size: cover;
+  background-position: 25% center;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* 底部轻渐变：让 since 字样在任何底图色上都可读 */
+.hero-image::before {
+  content: '';
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 40%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0));
+  pointer-events: none;
+}
+
+/* 角标：左下角竖向英文小字，编辑感 */
+.hero-image::after {
+  content: '— since 2019.10.26';
+  position: absolute;
+  left: 0.9rem;
+  bottom: 0.9rem;
+  color: white;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-eyebrow {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--love-primary);
+}
+
+.hero-title {
+  margin: 0 0 0.5rem 0;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--love-ink);
+  line-height: 1.1;
+}
+
+.hero-sub {
+  margin: 0 0 1.8rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  color: var(--love-ink);
+  opacity: 0.7;
+  font-style: italic;
+}
+
+/* hero 内的计时器：透明无卡片，左对齐 */
+.hero .love-timer {
+  background: transparent;
+  padding: 0 0 1.6rem 0;
+  margin: 0 0 1.6rem 0;
+  border-bottom: 1px solid rgba(var(--love-primary-rgb), 0.20);
+  box-shadow: none;
+  text-align: left;
+}
+
+.hero .timer-display {
+  justify-content: flex-start;
+  gap: 0.3rem;
+}
+
+.hero .timer-days {
+  color: var(--love-ink);
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.hero .timer-days-label {
+  color: rgba(var(--love-primary-rgb), 0.95);
+  font-size: 0.95rem;
+  margin-right: 0.7rem;
+}
+
+.hero .timer-clock {
+  color: var(--love-ink);
+  opacity: 0.55;
+  font-size: 0.95rem;
+}
+
+.hero .timer-message {
+  text-align: left;
+  margin-top: 0.5rem;
+  color: var(--love-ink);
+  opacity: 0.6;
+  font-size: 0.78rem;
+  font-style: normal;
+}
+
+/* CTA 按钮组：描边按钮 + 实色按钮，左对齐 */
+.hero-cta {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.hero-cta .md-button {
+  margin: 0;
+  background: transparent;
+  color: var(--love-ink);
+  border: 1px solid rgba(var(--love-primary-rgb), 0.6);
+  font-weight: 500;
+  box-shadow: none;
+}
+
+.hero-cta .md-button.md-button--primary {
+  background: var(--love-primary);
+  color: white;
+  border-color: var(--love-primary);
+}
+
+.hero-cta .md-button:hover {
+  transform: none;
+  background: rgba(var(--love-primary-rgb), 0.08);
+  box-shadow: none;
+}
+
+.hero-cta .md-button.md-button--primary:hover {
+  background: var(--love-primary-deep);
+  border-color: var(--love-primary-deep);
+}
+
+/* 夜读模式 hero 文字色调 */
+[data-md-color-scheme="slate"] .hero-title,
+[data-md-color-scheme="slate"] .hero .timer-item strong,
+[data-md-color-scheme="slate"] .hero-sub,
+[data-md-color-scheme="slate"] .hero .timer-message,
+[data-md-color-scheme="slate"] .hero-cta .md-button {
+  color: var(--love-ink);
+}
+
+/* 平板/手机：堆叠布局，图片在上 */
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 0.5rem auto 2rem;
+  }
+  .hero-image {
+    aspect-ratio: 5 / 4; /* 手机端图变得不那么高 */
+    max-height: 50vh;
+  }
+  .hero-title {
+    font-size: 2.1rem;
+  }
+}
+
+/* ====================================================
+   16. 引用块小爱心（A 方案）
+   ==================================================== */
+
+/* 把现有大引号替换为右上角小爱心，更贴情侣站语境 */
+.md-typeset blockquote::before {
+  content: '♡';
+  top: -8px;
+  left: auto;
+  right: 14px;
+  font-size: 28px;
+  color: rgba(var(--love-primary-rgb), 0.55);
+  font-family: inherit;
 }
