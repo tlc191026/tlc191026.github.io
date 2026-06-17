@@ -59,3 +59,19 @@ markdown_extensions:
 
 plugins:
   - search
+
+# 导航顺序
+# 注：仅有标题、尚未撰写内容的占位章节（如「第一年」「第三年」）暂不列出，
+# 内容写好后再加入对应条目即可。
+nav:
+  - 首页: index.md
+  - 我们的小站:
+      - 三周年快乐~: 我们的小站/home.md
+      - 建立初衷: 我们的小站/构建的过程/original intention.md
+  - 我们的爱情:
+      - 一些想对宝宝说的话: 我们的爱情/something want to say.md
+      - 回忆相册:
+          - 在我们坠入爱河之前: 我们的爱情/回忆相册/0-before_we_falling_love.md
+          - 我们在一起的第二年: 我们的爱情/回忆相册/2_second.md
+          - 我们在一起的第四年: 我们的爱情/回忆相册/4_fourth.md
+          - 和你一起走过的路: 我们的爱情/回忆相册/99-travel.md

@@ -8,7 +8,7 @@
 <style>
 /* 初始设置，背景图片位于左上角 */
 body {
-    background-image: url('https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/master/img/others/background.jpg');
+    background-image: url('https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/others/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
@@ -21,5 +21,3 @@ body {
     }
 }
 </style>
-
-<!-- chain-test 2026-06-17 -->
