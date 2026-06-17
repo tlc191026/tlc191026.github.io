@@ -4,9 +4,20 @@ site_url: https://tlc191026.github.io
 theme:
   name: material
   palette:
-    scheme: default
-    primary: indigo
-    accent: orange
+    # 日间：朝霞粉为主色，蜜橘金为强调色
+    - scheme: default
+      primary: pink
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到夜读模式
+    # 夜间：暖灰底 + 朝霞粉提亮
+    - scheme: slate
+      primary: pink
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: 切换到日间模式
   features:
     - navigation.tabs
     - navigation.top
@@ -26,8 +37,8 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
+  - javascripts/auth-gate.js
   - javascripts/extra.js
-  - javascripts/image-crypto.js
 
 # Markdown扩展
 markdown_extensions:
