@@ -19,3 +19,6 @@ Thumbs.db
 
 # Local Claude artifacts
 .claude/local/
+
+# Temporary one-off scripts and data dumps (photo tagging pipeline, mapping drafts...)
+tmp/
