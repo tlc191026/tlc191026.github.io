@@ -5,6 +5,9 @@
 (function() {
   'use strict';
 
+  // 开发期放行：mkdocs serve (端口 8000) 不触发密码门，便于本地预览与审核
+  if (location.port === '8000') return;
+
   var SESSION_KEY = 'site_authenticated';
   var LOGIN_PATH = '/login/';
 

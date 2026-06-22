@@ -22,3 +22,7 @@ Thumbs.db
 
 # Temporary one-off scripts and data dumps (photo tagging pipeline, mapping drafts...)
 tmp/
+
+# Electron app build artifacts (node_modules ~300MB, dist 出 .exe)
+electron-app/node_modules/
+electron-app/dist/

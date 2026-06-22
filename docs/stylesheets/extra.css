@@ -17,15 +17,15 @@
   --transition-normal: 0.3s;
   --transition-slow: 0.5s;
 
-  /* —— 桐&辰主题色 —— */
-  /* 朝霞粉为主，蜜橘金为辅，象牙白为底 */
-  --love-primary: #e8838f;
-  --love-primary-rgb: 232, 131, 143;
-  --love-primary-deep: #d96975;
-  --love-accent: #f0a868;
-  --love-accent-rgb: 240, 168, 104;
-  --love-cream: #f9f3ec;
-  --love-ink: #3a2e2c;
+  /* —— 桐&辰主题色（奶咖 + 薄玫）—— */
+  /* 薄玫为主，蜜黄为辅，米白为底 */
+  --love-primary: #c89090;
+  --love-primary-rgb: 200, 144, 144;
+  --love-primary-deep: #b07a7a;
+  --love-accent: #d4a574;
+  --love-accent-rgb: 212, 165, 116;
+  --love-cream: #faf7f2;
+  --love-ink: #3a342e;
 
   /* 覆盖 mkdocs-material 主题颜色变量 */
   --md-primary-fg-color: var(--love-primary);
@@ -42,14 +42,14 @@
   --shadow-hover: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
-/* 夜读模式：暖灰底 + 朝霞粉提亮 */
+/* 夜读模式：暖灰底 + 薄玫提亮 */
 [data-md-color-scheme="slate"] {
-  --love-primary: #f29eaa;
-  --love-primary-rgb: 242, 158, 170;
-  --love-primary-deep: #e8838f;
-  --love-accent: #f5b87f;
-  --love-accent-rgb: 245, 184, 127;
-  --love-cream: #2a1f1d;
+  --love-primary: #d8a4a4;
+  --love-primary-rgb: 216, 164, 164;
+  --love-primary-deep: #c89090;
+  --love-accent: #e0b88a;
+  --love-accent-rgb: 224, 184, 138;
+  --love-cream: #2a2420;
   --love-ink: #ede4dc;
 
   --md-primary-fg-color: var(--love-primary);
@@ -125,22 +125,6 @@
   to {
     transform: scale(1);
     opacity: 1;
-  }
-}
-
-/* 心形弹出 */
-@keyframes heartPop {
-  0% {
-    transform: scale(0);
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1.5);
-    opacity: 0.8;
-  }
-  100% {
-    transform: scale(1) translateY(-30px);
-    opacity: 0;
   }
 }
 
@@ -370,19 +354,7 @@ body {
 }
 
 /* ====================
-   9. 点击爱心效果
-   ==================== */
-
-.click-heart {
-  position: fixed;
-  font-size: 20px;
-  pointer-events: none;
-  z-index: 9999;
-  animation: heartPop 0.8s ease-out forwards;
-}
-
-/* ====================
-   10. 计时器样式
+   9. 计时器样式
    ==================== */
 
 .love-timer {

@@ -1,0 +1,27 @@
+{
+  "name": "tlc-review",
+  "version": "1.0.0",
+  "description": "桐辰照片审核 - 本地编辑 + 实时预览 + 一键推送 GitHub",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.tlc.review",
+    "productName": "桐辰照片审核",
+    "win": {
+      "target": "portable"
+    },
+    "files": [
+      "main.js"
+    ],
+    "directories": {
+      "output": "dist"
+    }
+  }
+}

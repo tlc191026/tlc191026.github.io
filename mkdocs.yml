@@ -4,17 +4,17 @@ site_url: https://tlc191026.github.io
 theme:
   name: material
   palette:
-    # 日间：朝霞粉为主色，蜜橘金为强调色
+    # 日间：薄玫为主色，蜜黄为强调色（具体色值由 extra.css 的 --love-* 变量接管）
     - scheme: default
-      primary: pink
-      accent: deep orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: 切换到夜读模式
-    # 夜间：暖灰底 + 朝霞粉提亮
+    # 夜间：暖灰底 + 薄玫提亮
     - scheme: slate
-      primary: pink
-      accent: deep orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: 切换到日间模式
@@ -70,6 +70,10 @@ markdown_extensions:
 
 plugins:
   - search
+
+# 开发辅助 hooks（仅 mkdocs serve 时改写远程 raw URL 为本地路径）
+hooks:
+  - mkdocs_hooks.py
 
 # 导航顺序
 # 注：仅有标题、尚未撰写内容的占位章节（如「第一年」「第三年」）暂不列出，
