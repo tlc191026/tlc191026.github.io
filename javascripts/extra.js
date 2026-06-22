@@ -15,7 +15,6 @@ const startDate = new Date('2019-10-26');
 function initPage() {
   initScrollAnimation();
   initLightbox();
-  initClickHeart();
   initTimer();
 }
 
@@ -108,33 +107,7 @@ function initLightbox() {
 }
 
 // ====================
-// 3. 点击爱心效果
-// ====================
-
-function initClickHeart() {
-  document.addEventListener('click', handleClickHeart);
-}
-
-function handleClickHeart(e) {
-  // 只在内容区域触发
-  if (e.target.closest('.md-content')) {
-    createClickHeart(e.clientX, e.clientY);
-  }
-}
-
-function createClickHeart(x, y) {
-  const heart = document.createElement('div');
-  heart.className = 'click-heart';
-  heart.textContent = '❤️';
-  heart.style.left = (x - 10) + 'px';
-  heart.style.top = (y - 10) + 'px';
-  document.body.appendChild(heart);
-
-  setTimeout(() => heart.remove(), 800);
-}
-
-// ====================
-// 4. 爱情计时器
+// 3. 爱情计时器
 // ====================
 
 function initTimer() {
