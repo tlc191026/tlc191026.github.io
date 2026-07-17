@@ -7,8 +7,11 @@ const { spawn } = require('child_process');
 const path = require('path');
 const http = require('http');
 
-// electron-app/ 的父目录 = 仓库根
-const REPO = path.resolve(__dirname, '..');
+// 开发态: __dirname = electron-app/，父目录 = 仓库根
+// 打包后: exe 位于 electron-app/dist/win-unpacked/，需向上 3 级到仓库根
+const REPO = app.isPackaged
+  ? path.resolve(path.dirname(process.execPath), '..', '..', '..')
+  : path.resolve(__dirname, '..');
 const APP_DIR = path.join(REPO, 'tmp', 'scripts', '04_review_app');
 const MKDOCS_PORT = 8000;
 const APP_PORT = 8001;
