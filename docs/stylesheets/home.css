@@ -1,0 +1,764 @@
+/* ====================================================
+   桐&辰 · 首页门面（恋爱纪事 · 编辑风）
+   五个分区：Hero → 故事时间线 → 胶片照片带 → 信件摘录 → 页脚
+   依赖 extra.css 的 --love-* tokens
+
+   注：所有组件选择器均以 `.md-typeset .home` 开头，
+   确保压过 mkdocs-material 的元素级排版规则（如 .md-typeset figure）。
+   ==================================================== */
+
+/* ====================
+   0. 门面模式：隐藏 docs 外壳，首页满幅
+   ==================== */
+
+body:has(.home) .md-header,
+body:has(.home) .md-tabs,
+body:has(.home) .md-footer {
+  display: none;
+}
+
+body:has(.home) .md-main__inner {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+body:has(.home) .md-content__inner {
+  padding: 0;
+  max-width: none;
+  margin: 0;
+}
+
+body:has(.home) .md-content__inner::before {
+  display: none;
+}
+
+/* 门面内锚点平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* ====================
+   1. .home 内部重置：不继承文档排版样式
+   ==================== */
+
+.md-typeset .home h1,
+.md-typeset .home h2,
+.md-typeset .home h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  animation: none;
+}
+
+.md-typeset .home h1::after {
+  display: none;
+}
+
+.md-typeset .home p {
+  margin: 0;
+  line-height: inherit;
+}
+
+.md-typeset .home blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  border-radius: 0;
+}
+
+.md-typeset .home blockquote::before {
+  display: none;
+}
+
+.md-typeset .home img {
+  border-radius: 0;
+  box-shadow: none;
+  cursor: default;
+}
+
+.md-typeset .home a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 通用小节眉题/标题 */
+.md-typeset .home .home-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--love-primary);
+  margin-bottom: 0.9rem;
+  line-height: 1.6;
+}
+
+.md-typeset .home .home-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3.4vw, 2.3rem);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--love-ink);
+  line-height: 1.25;
+}
+
+.md-typeset .home .home-section {
+  padding: clamp(4rem, 11vh, 7rem) clamp(1.25rem, 6vw, 4rem);
+}
+
+/* ====================
+   2. Hero：满屏合影 + 晨雾面纱 + 左下编辑排版
+   ==================== */
+
+.md-typeset .home .home-hero {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background: var(--love-bg);
+}
+
+/* 合影（inline style 传入 URL，配合 hooks 本地重写） */
+.md-typeset .home .home-hero__bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: 26% 20%;
+  /* 抵消原图的过度白化，恢复一点气色 */
+  filter: saturate(1.24) contrast(1.09) brightness(0.985);
+  transform: scale(1.02);
+  animation: heroDrift 26s ease-in-out infinite alternate;
+}
+
+@keyframes heroDrift {
+  from { transform: scale(1.02) translate(0, 0); }
+  to   { transform: scale(1.09) translate(-0.8%, -1.2%); }
+}
+
+/* 晨雾面纱：上下轻罩，保证墨色文字可读、合影依然可见 */
+.md-typeset .home .home-hero__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom,
+    rgba(247, 244, 239, 0.46) 0%,
+    rgba(247, 244, 239, 0.05) 34%,
+    rgba(247, 244, 239, 0.14) 58%,
+    rgba(247, 244, 239, 0.82) 100%);
+}
+
+[data-md-color-scheme="slate"] .home .home-hero__scrim {
+  background: linear-gradient(to bottom,
+    rgba(28, 34, 40, 0.55) 0%,
+    rgba(28, 34, 40, 0.22) 34%,
+    rgba(28, 34, 40, 0.38) 58%,
+    rgba(28, 34, 40, 0.88) 100%);
+}
+
+/* 夜读模式：合影整体压暗，保证奶油色文字可读 */
+[data-md-color-scheme="slate"] .home .home-hero__bg {
+  filter: saturate(1.1) contrast(1.05) brightness(0.66);
+}
+
+/* 顶部纪念符号（充当门面 masthead） */
+.md-typeset .home .home-hero__tag {
+  position: absolute;
+  z-index: 2;
+  top: 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.24em;
+  color: var(--love-ink);
+  opacity: 0.78;
+}
+
+[data-md-color-scheme="slate"] .home .home-hero__tag {
+  color: #eae2d8;
+}
+
+.md-typeset .home .home-hero__tag--tl { left: clamp(1.25rem, 6vw, 4rem); }
+.md-typeset .home .home-hero__tag--br { right: clamp(1.25rem, 6vw, 4rem); }
+
+/* 主内容：左下角 */
+.md-typeset .home .home-hero__inner {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 clamp(1.25rem, 6vw, 4rem) clamp(5rem, 13vh, 7.5rem);
+  color: var(--love-ink);
+}
+
+[data-md-color-scheme="slate"] .home .home-hero__inner {
+  color: #eae2d8;
+}
+
+.md-typeset .home .home-hero__eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.34em;
+  color: var(--love-primary-deep);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  animation: heroRise 0.9s var(--ease-out) 0.05s both;
+}
+
+[data-md-color-scheme="slate"] .home .home-hero__eyebrow {
+  color: var(--love-primary);
+}
+
+.md-typeset .home .home-hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 7.5vw, 5.4rem);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.05;
+  margin-bottom: 0.6rem;
+  animation: heroRise 0.9s var(--ease-out) 0.18s both;
+}
+
+.md-typeset .home .home-hero__title .amp {
+  color: var(--love-primary);
+  font-style: italic;
+  font-weight: 400;
+  padding: 0 0.08em;
+}
+
+.md-typeset .home .home-hero__sub {
+  font-size: clamp(0.95rem, 1.6vw, 1.08rem);
+  letter-spacing: 0.16em;
+  line-height: 1.8;
+  opacity: 0.82;
+  margin-bottom: 2.2rem;
+  animation: heroRise 0.9s var(--ease-out) 0.3s both;
+}
+
+@keyframes heroRise {
+  from { opacity: 0; transform: translateY(26px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* hero 计时器：单行、无卡片 */
+.md-typeset .home .love-timer--hero {
+  text-align: left;
+  margin-bottom: 2.4rem;
+  animation: heroRise 0.9s var(--ease-out) 0.42s both;
+}
+
+.md-typeset .home .love-timer--hero .timer-display {
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.md-typeset .home .love-timer--hero .timer-days {
+  font-size: clamp(1.9rem, 3.4vw, 2.6rem);
+  color: inherit;
+}
+
+.md-typeset .home .love-timer--hero .timer-days-label {
+  font-size: 0.95rem;
+  color: var(--love-primary-deep);
+  opacity: 1;
+  margin-right: 0.8rem;
+}
+
+[data-md-color-scheme="slate"] .home .love-timer--hero .timer-days-label {
+  color: var(--love-primary);
+}
+
+.md-typeset .home .love-timer--hero .timer-clock {
+  font-size: 0.95rem;
+  color: inherit;
+  opacity: 0.6;
+}
+
+.md-typeset .home .love-timer--hero .timer-message {
+  display: inline-block;
+  margin: 0 0 0 0.6rem;
+  font-size: 0.78rem;
+  color: inherit;
+  opacity: 0.6;
+  letter-spacing: 0.08em;
+}
+
+/* CTA */
+.md-typeset .home .home-hero__cta {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  animation: heroRise 0.9s var(--ease-out) 0.54s both;
+}
+
+.md-typeset .home .home-hero__cta .md-button {
+  margin: 0;
+  backdrop-filter: blur(4px);
+}
+
+/* 向下翻阅 */
+.md-typeset .home .home-hero__scroll {
+  position: absolute;
+  z-index: 2;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--love-ink);
+}
+
+[data-md-color-scheme="slate"] .home .home-hero__scroll {
+  color: #eae2d8;
+}
+
+.md-typeset .home .home-hero__scroll-text {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.32em;
+  opacity: 0.72;
+}
+
+.md-typeset .home .home-hero__scroll-line {
+  width: 1px;
+  height: 40px;
+  background: currentColor;
+  opacity: 0.55;
+  transform-origin: top;
+  animation: scrollPulse 2.2s var(--ease-out) infinite;
+}
+
+@keyframes scrollPulse {
+  0%   { transform: scaleY(0); }
+  45%  { transform: scaleY(1); }
+  100% { transform: scaleY(0); transform-origin: bottom; }
+}
+
+/* ====================
+   3. 故事时间线
+   ==================== */
+
+.md-typeset .home .home-story {
+  background: var(--love-bg);
+}
+
+.md-typeset .home .home-section__head {
+  max-width: 960px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.md-typeset .home .home-section__head .home-title::after {
+  content: '';
+  display: block;
+  width: 44px;
+  height: 2px;
+  margin: 1rem auto 0;
+  background: linear-gradient(90deg, var(--love-primary), var(--love-blue));
+  border-radius: 2px;
+}
+
+.md-typeset .home .tl {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  list-style: none;
+}
+
+.md-typeset .home .tl::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--love-line);
+}
+
+.md-typeset .home .tl-item {
+  position: relative;
+  width: 50%;
+  padding: 1.4rem 3rem;
+  margin: 0;
+}
+
+.md-typeset .home .tl-item:nth-child(odd) {
+  left: 0;
+  text-align: right;
+}
+
+.md-typeset .home .tl-item:nth-child(even) {
+  left: 50%;
+  text-align: left;
+}
+
+.md-typeset .home .tl-item__dot {
+  position: absolute;
+  top: 2rem;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--love-primary);
+  box-shadow: 0 0 0 5px var(--love-bg);
+}
+
+.md-typeset .home .tl-item:nth-child(odd) .tl-item__dot  { right: -6px; }
+.md-typeset .home .tl-item:nth-child(even) .tl-item__dot { left: -6px; }
+
+/* 未来节点：空心小爱心 */
+.md-typeset .home .tl-item__dot--heart {
+  background: transparent;
+  box-shadow: none;
+  color: var(--love-accent);
+  font-size: 17px;
+  line-height: 11px;
+  width: auto;
+  height: auto;
+}
+
+.md-typeset .home .tl-item__date {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  color: var(--love-primary-deep);
+  margin-bottom: 0.45rem;
+  line-height: 1.6;
+}
+
+[data-md-color-scheme="slate"] .home .tl-item__date {
+  color: var(--love-primary);
+}
+
+.md-typeset .home .tl-item__title {
+  font-family: var(--font-display);
+  font-size: 1.28rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--love-ink);
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.md-typeset .home .tl-item__text {
+  font-size: 0.92rem;
+  line-height: 1.9;
+  color: var(--love-ink);
+  opacity: 0.78;
+}
+
+/* 时间线入场依次延迟 */
+.md-typeset .home .tl-item:nth-child(2) { transition-delay: 0.08s; }
+.md-typeset .home .tl-item:nth-child(3) { transition-delay: 0.16s; }
+.md-typeset .home .tl-item:nth-child(4) { transition-delay: 0.24s; }
+.md-typeset .home .tl-item:nth-child(5) { transition-delay: 0.32s; }
+.md-typeset .home .tl-item:nth-child(6) { transition-delay: 0.4s; }
+
+/* ====================
+   4. 胶片照片带（横向 scroll-snap）
+   ==================== */
+
+.md-typeset .home .home-film {
+  background: var(--love-bg-soft);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.md-typeset .home .home-film .home-section__head {
+  padding: 0 clamp(1.25rem, 6vw, 4rem);
+}
+
+.md-typeset .home .film-strip {
+  display: flex;
+  gap: 1.1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0.5rem clamp(1.25rem, 6vw, 4rem) 1.4rem;
+  -webkit-overflow-scrolling: touch;
+  /* 两端渐隐，胶片延伸感 */
+  mask-image: linear-gradient(90deg, transparent, #000 2.2%, #000 97.8%, transparent);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(var(--love-primary-rgb), 0.5) transparent;
+}
+
+.md-typeset .home .film-strip::-webkit-scrollbar { height: 5px; }
+.md-typeset .home .film-strip::-webkit-scrollbar-thumb {
+  background: rgba(var(--love-primary-rgb), 0.45);
+  border-radius: 999px;
+}
+.md-typeset .home .film-strip::-webkit-scrollbar-track { background: transparent; }
+
+.md-typeset .home .film-card {
+  flex: 0 0 auto;
+  width: clamp(200px, 24vw, 264px);
+  scroll-snap-align: start;
+  margin: 0;
+}
+
+/* scroll-snap 会吸附到 snapport 边缘、吃掉容器 padding，
+   用 scroll-margin 把首尾卡片的吸附点补回来 */
+.md-typeset .home .film-card:first-child {
+  scroll-margin-left: clamp(1.25rem, 6vw, 4rem);
+}
+
+.md-typeset .home .film-card:last-child {
+  scroll-margin-right: clamp(1.25rem, 6vw, 4rem);
+}
+
+.md-typeset .home .film-card img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--love-line);
+  box-shadow: var(--shadow-soft);
+  cursor: zoom-in;
+  transition: box-shadow var(--transition-normal);
+}
+
+.md-typeset .home .film-card img:hover {
+  box-shadow: var(--shadow-lift);
+}
+
+.md-typeset .home .film-card figcaption {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-top: 0.55rem;
+  font-size: 0.82rem;
+  color: var(--love-ink);
+  opacity: 0.85;
+}
+
+.md-typeset .home .film-card__date {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  color: var(--love-primary-deep);
+  white-space: nowrap;
+}
+
+[data-md-color-scheme="slate"] .home .film-card__date {
+  color: var(--love-primary);
+}
+
+.md-typeset .home .home-film__more {
+  text-align: center;
+  margin-top: 1.6rem;
+}
+
+.md-typeset .home .home-film__more a {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.22em;
+  color: var(--love-primary-deep);
+  border-bottom: 1px solid rgba(var(--love-primary-rgb), 0.4);
+  padding-bottom: 2px;
+  transition: color var(--transition-fast), border-color var(--transition-fast);
+}
+
+[data-md-color-scheme="slate"] .home .home-film__more a {
+  color: var(--love-primary);
+}
+
+.md-typeset .home .home-film__more a:hover {
+  color: var(--love-ink);
+  border-color: var(--love-ink);
+}
+
+/* ====================
+   5. 信件摘录（氛围色带）
+   ==================== */
+
+.md-typeset .home .home-letter {
+  background: linear-gradient(135deg,
+    rgba(var(--love-primary-rgb), 0.1) 0%,
+    rgba(var(--love-blue-rgb), 0.1) 100%);
+  text-align: center;
+}
+
+.md-typeset .home .home-letter__inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.md-typeset .home .home-letter__heart {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--love-primary);
+  margin-bottom: 1.2rem;
+}
+
+.md-typeset .home .home-letter__quote {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 2.6vw, 1.6rem);
+  line-height: 2.1;
+  letter-spacing: 0.04em;
+  color: var(--love-ink);
+}
+
+.md-typeset .home .home-letter__quote strong {
+  color: var(--love-primary-deep);
+  font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .home .home-letter__quote strong {
+  color: var(--love-primary);
+}
+
+.md-typeset .home .home-letter__link {
+  display: inline-block;
+  margin-top: 2.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.24em;
+  color: var(--love-ink);
+  border: 1px solid var(--love-line);
+  border-radius: 999px;
+  padding: 0.6rem 1.6rem;
+  transition: background-color var(--transition-fast),
+              border-color var(--transition-fast);
+}
+
+.md-typeset .home .home-letter__link:hover {
+  background: rgba(var(--love-primary-rgb), 0.12);
+  border-color: rgba(var(--love-primary-rgb), 0.5);
+}
+
+/* ====================
+   6. 页脚（墨青带）
+   ==================== */
+
+.md-typeset .home .home-footer {
+  background: #2e3a42;
+  color: #f3ece2;
+  text-align: center;
+  padding: 3.6rem 1.5rem 2.6rem;
+}
+
+/* 夜读模式：页脚保持比底色更深的墨青，不随 --love-ink 翻转 */
+[data-md-color-scheme="slate"] .home .home-footer {
+  background: #131a20;
+  color: #eae2d8;
+}
+
+.md-typeset .home .home-footer__brand {
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+}
+
+.md-typeset .home .home-footer__brand .amp {
+  color: var(--love-primary);
+  font-style: italic;
+  font-weight: 400;
+  padding: 0 0.1em;
+}
+
+.md-typeset .home .home-footer__motto {
+  margin-top: 0.6rem;
+  font-size: 0.88rem;
+  letter-spacing: 0.12em;
+  line-height: 1.8;
+  opacity: 0.68;
+}
+
+.md-typeset .home .home-footer__nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.8rem;
+  margin-top: 1.8rem;
+}
+
+.md-typeset .home .home-footer__nav a {
+  font-size: 0.88rem;
+  letter-spacing: 0.06em;
+  opacity: 0.85;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  transition: opacity var(--transition-fast),
+              color var(--transition-fast),
+              border-color var(--transition-fast);
+}
+
+.md-typeset .home .home-footer__nav a:hover {
+  opacity: 1;
+  color: var(--love-primary);
+  border-color: rgba(211, 160, 160, 0.5);
+}
+
+.md-typeset .home .home-footer__meta {
+  margin-top: 2.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.26em;
+  line-height: 1.8;
+  opacity: 0.45;
+}
+
+/* ====================
+   7. 响应式
+   ==================== */
+
+@media (max-width: 768px) {
+  /* Hero：合影人脸偏左，移动端对准中左 */
+  .md-typeset .home .home-hero__bg {
+    background-position: 30% 18%;
+  }
+
+  .md-typeset .home .home-hero__inner {
+    padding-bottom: 6.5rem;
+  }
+
+  .md-typeset .home .home-hero__scroll {
+    display: none;
+  }
+
+  /* 时间线：单栏左线 */
+  .md-typeset .home .tl::before {
+    left: 10px;
+  }
+
+  .md-typeset .home .tl-item,
+  .md-typeset .home .tl-item:nth-child(odd),
+  .md-typeset .home .tl-item:nth-child(even) {
+    width: 100%;
+    left: 0;
+    text-align: left;
+    padding: 1rem 0 1rem 2.4rem;
+  }
+
+  .md-typeset .home .tl-item:nth-child(odd) .tl-item__dot,
+  .md-typeset .home .tl-item:nth-child(even) .tl-item__dot {
+    left: 5px;
+    right: auto;
+  }
+
+  .md-typeset .home .film-card {
+    width: 62vw;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .home .home-hero__bg,
+  .md-typeset .home .home-hero__scroll-line,
+  .md-typeset .home .home-hero__eyebrow,
+  .md-typeset .home .home-hero__title,
+  .md-typeset .home .home-hero__sub,
+  .md-typeset .home .love-timer--hero,
+  .md-typeset .home .home-hero__cta {
+    animation: none !important;
+  }
+}

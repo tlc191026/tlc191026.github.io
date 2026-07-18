@@ -7,6 +7,7 @@ hide:
 
 <div class="login-page">
   <div class="login-card">
+    <p class="login-tag">EST. 2019 · NO. 191026</p>
     <h2 class="login-title">桐 &amp; 辰</h2>
     <p class="login-sub">请输入访问密码</p>
     <form id="login-form" class="login-form" autocomplete="off">

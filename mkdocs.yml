@@ -35,6 +35,7 @@ theme:
 # 自定义CSS和JS
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/home.css
 
 extra_javascript:
   - javascripts/auth-gate.js
