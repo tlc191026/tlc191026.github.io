@@ -149,18 +149,18 @@ html {
   position: absolute;
   inset: 0;
   background: linear-gradient(to bottom,
-    rgba(247, 244, 239, 0.46) 0%,
-    rgba(247, 244, 239, 0.05) 34%,
-    rgba(247, 244, 239, 0.14) 58%,
-    rgba(247, 244, 239, 0.82) 100%);
+    rgba(246, 241, 233, 0.46) 0%,
+    rgba(246, 241, 233, 0.05) 34%,
+    rgba(246, 241, 233, 0.14) 58%,
+    rgba(246, 241, 233, 0.82) 100%);
 }
 
 [data-md-color-scheme="slate"] .home .home-hero__scrim {
   background: linear-gradient(to bottom,
-    rgba(28, 34, 40, 0.55) 0%,
-    rgba(28, 34, 40, 0.22) 34%,
-    rgba(28, 34, 40, 0.38) 58%,
-    rgba(28, 34, 40, 0.88) 100%);
+    rgba(38, 35, 31, 0.55) 0%,
+    rgba(38, 35, 31, 0.22) 34%,
+    rgba(38, 35, 31, 0.38) 58%,
+    rgba(38, 35, 31, 0.88) 100%);
 }
 
 /* 夜读模式：合影整体压暗，保证奶油色文字可读 */
@@ -181,7 +181,7 @@ html {
 }
 
 [data-md-color-scheme="slate"] .home .home-hero__tag {
-  color: #eae2d8;
+  color: #eae3d4;
 }
 
 .md-typeset .home .home-hero__tag--tl { left: clamp(1.25rem, 6vw, 4rem); }
@@ -199,7 +199,7 @@ html {
 }
 
 [data-md-color-scheme="slate"] .home .home-hero__inner {
-  color: #eae2d8;
+  color: #eae3d4;
 }
 
 .md-typeset .home .home-hero__eyebrow {
@@ -318,7 +318,7 @@ html {
 }
 
 [data-md-color-scheme="slate"] .home .home-hero__scroll {
-  color: #eae2d8;
+  color: #eae3d4;
 }
 
 .md-typeset .home .home-hero__scroll-text {
@@ -363,7 +363,7 @@ html {
   width: 44px;
   height: 2px;
   margin: 1rem auto 0;
-  background: linear-gradient(90deg, var(--love-primary), var(--love-blue));
+  background: linear-gradient(90deg, var(--love-primary), var(--love-sage));
   border-radius: 2px;
 }
 
@@ -582,7 +582,7 @@ html {
 .md-typeset .home .home-letter {
   background: linear-gradient(135deg,
     rgba(var(--love-primary-rgb), 0.1) 0%,
-    rgba(var(--love-blue-rgb), 0.1) 100%);
+    rgba(var(--love-sage-rgb), 0.1) 100%);
   text-align: center;
 }
 
@@ -639,16 +639,16 @@ html {
    ==================== */
 
 .md-typeset .home .home-footer {
-  background: #2e3a42;
+  background: #2b2721;
   color: #f3ece2;
   text-align: center;
   padding: 3.6rem 1.5rem 2.6rem;
 }
 
-/* 夜读模式：页脚保持比底色更深的墨青，不随 --love-ink 翻转 */
+/* 夜读模式：页脚保持比底色更深的暖炭，不随 --love-ink 翻转 */
 [data-md-color-scheme="slate"] .home .home-footer {
-  background: #131a20;
-  color: #eae2d8;
+  background: #1c1915;
+  color: #eae3d4;
 }
 
 .md-typeset .home .home-footer__brand {
@@ -696,7 +696,7 @@ html {
 .md-typeset .home .home-footer__nav a:hover {
   opacity: 1;
   color: var(--love-primary);
-  border-color: rgba(211, 160, 160, 0.5);
+  border-color: rgba(208, 138, 110, 0.5);
 }
 
 .md-typeset .home .home-footer__meta {
