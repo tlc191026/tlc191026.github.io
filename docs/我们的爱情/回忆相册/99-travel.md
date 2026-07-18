@@ -5,56 +5,68 @@
 ## **Britain**
 &emsp;&emsp;**2023年**，在经历一些小风波后，我们决定踏上这段奇妙的旅程，不仅仅为了暂时忘掉所生活环境的苟且，也是为了重新找回我们自己。英国，一个欧洲西部的浪漫国度，成为我们行万里路的开端。这是我们第一次到那么远的地方，去窥探广袤世界的一隅。这段经历有太多的第一次，趁着还年少走过的每个街角，都注定成为我们余生最难忘的幸福瞬间。
 
-### ·*Southampton*
-&emsp;&emsp;**2023年7月3日**在一切都准备就绪之后，我们正式踏上去程的飞机，前往旅途的第一站*Southampton*（**ps**：还记得当时和导师打了声儿招呼就直接开溜了，根本没有意识到有什么不妥hhh）。
-<div style="text-align:center">
-  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.3-首都机场.jpg" alt="首都机场合影" style="max-width:40%; display:inline-block">
-</div>
+### *Southampton*
+&emsp;&emsp;**2023年7月3日**在一切都准备就绪之后，我们正式踏上去程的飞机，前往旅途的第一站*Southampton*（ps：还记得当时和导师打了声儿招呼就直接开溜了，根本没有意识到有什么不妥hhh）。
+<figure class="photo-row photo-row--single">
+  <div class="photo-row__imgs">
+    <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.3-首都机场.jpg" alt="首都机场合影" loading="lazy" decoding="async">
+  </div>
+</figure>
 
 &emsp;&emsp;长达14h的空中飞行是我们牵手走过最长的一段路，掠过俄罗斯上空，横跨整个亚欧大陆，抵达相距8175km的伦敦希思罗机场。挚友阴天儿和第一次见面的张馨月（阴天儿女友）早早的就在机场等候。初次来到异国他乡的新奇，对于旅程的期待，以及我与阴天儿多年未见的想念交杂在一起，复杂的心情难以言表。刚刚落地的第一天我们就感受到了英国夏令时的魅力，即使当地时间已经晚上21点，天空只是刚刚有些昏沉。不长不短的一段车程我们最终抵达了路程的第一站**Southampton**（相比之后的英国火车乘车体验完全是天壤之别，不过这些都是后话了）。
 &emsp;&emsp;下榻张馨月同学的宿舍，我们短暂的拥有了独属于我们两个人的小窝。最让我们兴奋的是一个宽阔的公共厨房，从厨房的大窗向外眺望能够鸟瞰整个南安普顿城。
-<div style="text-align:center">
-  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿1.jpg" alt="南安普顿1" style="max-width:40%; display:inline-block">
-  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿2.jpg" alt="南安普顿2" style="max-width:40%; display:inline-block">
-</div>
+<figure class="photo-row">
+  <div class="photo-row__imgs">
+    <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿1.jpg" alt="南安普顿1" style="--ar:2.207" loading="lazy" decoding="async">
+    <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿2.jpg" alt="南安普顿2" style="--ar:2.207" loading="lazy" decoding="async">
+  </div>
+</figure>
 &emsp;&emsp;7月份的英国气温刚好，南安普顿的气候令人心旷神怡。在抵达宿舍的第二天，友人便带我们穿梭于这个陌生的城市，讲述着他们在这个城市留下的故事。
-<div style="text-align:center">
-  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿citywalk.jpg" alt="南安普顿citywalk" style="max-width:40%; display:inline-block">
-</div>
+<figure class="photo-row photo-row--single">
+  <div class="photo-row__imgs">
+    <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿citywalk.jpg" alt="南安普顿citywalk" loading="lazy" decoding="async">
+  </div>
+</figure>
 &emsp;&emsp;充满异域色彩的英式建筑第一次以这种形式呈现在我们眼前，这里的一切都是新奇的。
-<div style="text-align:center">
-  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿3.jpg" alt="南安普顿3" style="max-width:40%; display:inline-block">
-  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿4.jpg" alt="南安普顿4" style="max-width:40%; display:inline-block">
-</div>
+<figure class="photo-row">
+  <div class="photo-row__imgs">
+    <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿3.jpg" alt="南安普顿3" style="--ar:2.207" loading="lazy" decoding="async">
+    <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿4.jpg" alt="南安普顿4" style="--ar:2.207" loading="lazy" decoding="async">
+  </div>
+</figure>
 &emsp;&emsp;飞鸟与海鸥共同组成了这座沿海城市一道独特的景观，宿舍前的街心公园总是能看到它们跃动的身影。
-<div style="text-align:center">
-  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿5.jpg" alt="南安普顿5" style="max-width:40%; display:inline-block">
-  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿6.jpg" alt="南安普顿6" style="max-width:40%; display:inline-block">
-</div>
+<figure class="photo-row">
+  <div class="photo-row__imgs">
+    <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿5.jpg" alt="南安普顿5" style="--ar:2.198" loading="lazy" decoding="async">
+    <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿6.jpg" alt="南安普顿6" style="--ar:2.198" loading="lazy" decoding="async">
+  </div>
+</figure>
 &emsp;&emsp;即使远在异国他乡，中国人的足迹也遍布每个角落，谁又能想到抵达英国的第二天我们在“家”中一起吃了一顿正宗的海底捞火锅。
-<div style="text-align:center">
-  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿火锅食材.jpg" alt="南安普顿火锅食材" style="max-width:40%; display:inline-block">
-  <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿火锅.jpg" alt="南安普顿火锅" style="max-width:40%; display:inline-block">
-</div>
+<figure class="photo-row">
+  <div class="photo-row__imgs">
+    <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿火锅食材.jpg" alt="南安普顿火锅食材" style="--ar:2.207" loading="lazy" decoding="async">
+    <img src="https://raw.githubusercontent.com/tlc191026/tlc191026.github.io/main/img/travel/UK/2023.7.4-南安普顿火锅.jpg" alt="南安普顿火锅" style="--ar:2.207" loading="lazy" decoding="async">
+  </div>
+</figure>
 
 
-### ·*Brighton*
+### *Brighton*
 &emsp;&emsp;*Brighton*是我们来到英国之后前往的第二个城市，也是在这座沿海小镇里我们认识了阴天儿在英国的友人们，在这里我们第一次体验了7人间的民宿，第一次感受英国独特的赌场文化，第一次一起通宵坐在海边等待日出（虽然最后太阳从另一边升起来，但是和友人在一起的时光真的很快乐）……
 
 
-### ·*York*
+### *York*
 
-### ·*Leeds*
+### *Leeds*
 
-### ·*Manchester*
+### *Manchester*
 
-### ·*Edinburgh*
+### *Edinburgh*
 
-### ·*London*
+### *London*
 
-### ·*External-钟*
+### *External-钟*
 
 ## **中国**
 
-### ·*乌兰察布*
+### *乌兰察布*
 

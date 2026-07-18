@@ -38,16 +38,18 @@ function initScrollAnimation() {
     });
   }, observerOptions);
 
-  // 观察需要动画的元素（内页排版元素 + 首页分区组件）
+  // 观察需要动画的元素（内页排版元素 + 首页分区组件 + 照片行）
   const animatedElements = document.querySelectorAll(
     '.md-typeset h2, .md-typeset h3, .md-typeset p, ' +
-    '.md-typeset img, .md-typeset blockquote, ' +
+    '.md-typeset img, .md-typeset blockquote, .md-typeset .photo-row, ' +
     '.home-section__head, .tl-item, .film-card, .home-letter__inner'
   );
 
   animatedElements.forEach(el => {
     // hero 有自己的入场动画，不参与滚动淡入
     if (el.closest('.home-hero')) return;
+    // photo-row 作为整体淡入，内部图片不再单独动画
+    if (el.closest('.photo-row') && !el.classList.contains('photo-row')) return;
     // 首页门面内只动画分区组件，普通元素由组件级类控制
     if (el.closest('.home') &&
         !el.matches('.home-section__head, .tl-item, .film-card, .home-letter__inner')) {

@@ -8,24 +8,23 @@
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css');
 
 /* ====================
-   1. 设计 Tokens
-   晨雾白底 · 薄玫主色 · 雾蓝灰辅色 · 墨青文字 · 蜜金点缀
-   （色板提炼自伦敦泰晤士合影）
+   1. 设计 Tokens —— 暖陶手记
+   暖纸底 · 赤陶主色 · 橄榄辅色 · 暖炭文字 · 黄铜点缀
    ==================== */
 :root {
   /* 色板 */
-  --love-bg: #f7f4ef;
-  --love-bg-soft: #f0e9e1;
-  --love-card: #fffdf9;
-  --love-primary: #c68b8b;
-  --love-primary-rgb: 198, 139, 139;
-  --love-primary-deep: #a96f6f;
-  --love-blue: #8fa3b0;
-  --love-blue-rgb: 143, 163, 176;
-  --love-ink: #2e3a42;
-  --love-ink-rgb: 46, 58, 66;
-  --love-accent: #d4a574;
-  --love-accent-rgb: 212, 165, 116;
+  --love-bg: #f6f1e9;
+  --love-bg-soft: #eee7d9;
+  --love-card: #fcf9f2;
+  --love-primary: #b5654a;
+  --love-primary-rgb: 181, 101, 74;
+  --love-primary-deep: #9a5140;
+  --love-sage: #7d8471;
+  --love-sage-rgb: 125, 132, 113;
+  --love-ink: #33302b;
+  --love-ink-rgb: 51, 48, 43;
+  --love-accent: #b48a3c;
+  --love-accent-rgb: 180, 138, 60;
   --love-line: rgba(var(--love-ink-rgb), 0.14);
 
   /* 字体：标题衬线（编辑感）/ 正文文楷（手账感）/ 日期等宽（纪念符号） */
@@ -35,8 +34,8 @@
   --font-mono: 'JetBrains Mono', 'Courier New', monospace;
 
   /* 阴影 */
-  --shadow-soft: 0 1px 4px rgba(46, 58, 66, 0.07);
-  --shadow-lift: 0 14px 34px rgba(46, 58, 66, 0.12);
+  --shadow-soft: 0 1px 4px rgba(51, 48, 43, 0.07);
+  --shadow-lift: 0 14px 34px rgba(51, 48, 43, 0.12);
 
   /* 动效：统一缓动 */
   --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
@@ -45,7 +44,7 @@
 
   /* 接管 mkdocs-material */
   --md-primary-fg-color: var(--love-primary);
-  --md-primary-fg-color--light: #e3bcbc;
+  --md-primary-fg-color--light: #d89b84;
   --md-primary-fg-color--dark: var(--love-primary-deep);
   --md-accent-fg-color: var(--love-accent);
   --md-default-bg-color: var(--love-bg);
@@ -53,35 +52,42 @@
   --md-typeset-color: var(--love-ink);
   --md-typeset-a-color: var(--love-primary-deep);
   --md-text-font: var(--font-body);
+
+  /* 页脚并入纸面（去深色 docs 底） */
+  --md-footer-bg-color: transparent;
+  --md-footer-bg-color--dark: transparent;
+  --md-footer-fg-color: var(--love-ink);
+  --md-footer-fg-color--light: rgba(var(--love-ink-rgb), 0.62);
+  --md-footer-fg-color--lighter: rgba(var(--love-ink-rgb), 0.45);
 }
 
-/* 夜读模式：墨青深夜 + 薄玫提亮 */
+/* 夜读模式：暖炭深夜 + 浅陶提亮 */
 [data-md-color-scheme="slate"] {
-  --love-bg: #1c2228;
-  --love-bg-soft: #232a31;
-  --love-card: #262e36;
-  --love-primary: #d3a0a0;
-  --love-primary-rgb: 211, 160, 160;
-  --love-primary-deep: #c68b8b;
-  --love-blue: #9db4c1;
-  --love-blue-rgb: 157, 180, 193;
-  --love-ink: #eae2d8;
-  --love-ink-rgb: 234, 226, 216;
-  --love-accent: #ddb489;
-  --love-accent-rgb: 221, 180, 137;
-  --love-line: rgba(234, 226, 216, 0.16);
+  --love-bg: #26231f;
+  --love-bg-soft: #2c2924;
+  --love-card: #2f2b25;
+  --love-primary: #d08a6e;
+  --love-primary-rgb: 208, 138, 110;
+  --love-primary-deep: #b5654a;
+  --love-sage: #9aa08c;
+  --love-sage-rgb: 154, 160, 140;
+  --love-ink: #eae3d4;
+  --love-ink-rgb: 234, 227, 212;
+  --love-accent: #cba75c;
+  --love-accent-rgb: 203, 167, 92;
+  --love-line: rgba(234, 227, 212, 0.16);
 
   --shadow-soft: 0 1px 4px rgba(0, 0, 0, 0.3);
   --shadow-lift: 0 14px 34px rgba(0, 0, 0, 0.4);
 
   --md-primary-fg-color: var(--love-primary);
-  --md-primary-fg-color--light: #e3bcbc;
+  --md-primary-fg-color--light: #e5b29c;
   --md-primary-fg-color--dark: var(--love-primary-deep);
   --md-accent-fg-color: var(--love-accent);
   --md-default-bg-color: var(--love-bg);
   --md-default-fg-color: var(--love-ink);
-  --md-default-fg-color--light: #cfc6bb;
-  --md-default-fg-color--lighter: #9aa4ac;
+  --md-default-fg-color--light: #d6ccbc;
+  --md-default-fg-color--lighter: #a39a8b;
   --md-typeset-color: var(--love-ink);
   --md-typeset-a-color: var(--love-primary);
 }
@@ -95,7 +101,7 @@ body {
   /* 极轻的双角色氛：右上薄玫、左下雾蓝 */
   background-image:
     radial-gradient(58vw 58vw at 88% -12%, rgba(var(--love-primary-rgb), 0.07), transparent 70%),
-    radial-gradient(52vw 52vw at -12% 108%, rgba(var(--love-blue-rgb), 0.06), transparent 70%);
+    radial-gradient(52vw 52vw at -12% 108%, rgba(var(--love-sage-rgb), 0.06), transparent 70%);
   background-attachment: fixed;
 }
 
@@ -153,25 +159,81 @@ body {
 }
 
 /* ====================
-   4. 导航
+   4. 站点骨架（去 docs 化）
+   header/tabs 融入纸底，导航与目录安静化
    ==================== */
 
+/* Header：纸底毛玻璃 + 底部发丝线（由 tabs 行提供），去实心色块 */
 .md-header {
-  backdrop-filter: blur(10px);
-  transition: all var(--transition-normal);
+  background: color-mix(in srgb, var(--love-bg) 88%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: var(--love-ink);
+  box-shadow: none;
+  transition: background-color var(--transition-normal);
 }
 
-.md-header--shadow {
-  box-shadow: var(--shadow-soft);
+/* 站点名：衬线刊头感 */
+.md-header__title {
+  font-family: var(--font-display);
+  letter-spacing: 0.06em;
 }
 
+/* Tabs：透明底 + 发丝线，链接安静下来 */
 .md-tabs {
-  transition: all var(--transition-normal);
+  background: transparent;
+  color: var(--love-ink);
+  border-bottom: 1px solid var(--love-line);
+  font-size: 0.78rem;
+  transition: border-color var(--transition-normal);
+}
+
+.md-tabs__link {
+  opacity: 0.62;
+  transition: opacity var(--transition-fast),
+              color var(--transition-fast),
+              box-shadow var(--transition-fast);
+}
+
+.md-tabs__link:hover {
+  opacity: 1;
+}
+
+.md-tabs__link--active,
+.md-tabs__link[aria-current="page"] {
+  opacity: 1;
+  color: var(--love-primary-deep);
+  box-shadow: inset 0 -2px 0 var(--love-primary);
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link--active,
+[data-md-color-scheme="slate"] .md-tabs__link[aria-current="page"] {
+  color: var(--love-primary);
+}
+
+/* 搜索框：纸面凹感，而非深色药丸 */
+.md-search__form {
+  background: rgba(var(--love-ink-rgb), 0.06);
+  border-radius: 999px;
+  transition: background-color var(--transition-fast);
+}
+
+.md-search__form:hover {
+  background: rgba(var(--love-ink-rgb), 0.1);
+}
+
+.md-search__input {
+  color: var(--love-ink);
+}
+
+.md-search__input::placeholder {
+  color: rgba(var(--love-ink-rgb), 0.48);
 }
 
 /* 侧边栏导航 */
 .md-nav__link {
-  transition: background-color var(--transition-fast);
+  transition: background-color var(--transition-fast),
+              color var(--transition-fast);
   border-radius: 8px;
   margin: 2px 0;
 }
@@ -180,13 +242,91 @@ body {
   background: rgba(var(--love-primary-rgb), 0.1);
 }
 
-.md-nav__link--active {
+/* 左栏：分区标题做成 mono 眉题 */
+.md-nav--primary .md-nav__title {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.22em;
+  color: var(--love-sage);
+}
+
+.md-nav--primary .md-nav__link--active {
   background: linear-gradient(90deg,
     rgba(var(--love-primary-rgb), 0.14) 0%,
     transparent 100%);
-  border-left: 3px solid var(--md-primary-fg-color);
+  border-left: 3px solid var(--love-primary);
   /* 左侧指示条用直角，避免圆角让它看起来像括号 */
   border-radius: 0 8px 8px 0;
+  color: var(--love-primary-deep);
+}
+
+[data-md-color-scheme="slate"] .md-nav--primary .md-nav__link--active {
+  color: var(--love-primary);
+}
+
+/* 右栏目录：纤细安静，日期列表不再喧宾夺主 */
+.md-nav--secondary .md-nav__title {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.22em;
+  color: var(--love-sage);
+}
+
+.md-nav--secondary .md-nav__link {
+  font-size: 0.72rem;
+  line-height: 1.55;
+  padding-top: 0.28rem;
+  padding-bottom: 0.28rem;
+  opacity: 0.72;
+  border-radius: 0;
+}
+
+.md-nav--secondary .md-nav__link:hover {
+  background: none;
+  opacity: 1;
+  color: var(--love-primary-deep);
+}
+
+.md-nav--secondary .md-nav__link--active,
+.md-nav--secondary .md-nav__link--active:hover {
+  background: none;
+  opacity: 1;
+  color: var(--love-primary-deep);
+  box-shadow: inset 2px 0 0 var(--love-primary);
+}
+
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link--active:hover {
+  color: var(--love-primary);
+}
+
+/* 页脚：纸面延续 + 顶部发丝线，去深色 docs 底 */
+.md-footer {
+  background: transparent;
+  color: rgba(var(--love-ink-rgb), 0.62);
+}
+
+.md-footer-meta {
+  background: transparent;
+}
+
+.md-footer__inner {
+  border-top: 1px solid var(--love-line);
+}
+
+.md-footer-nav__link {
+  color: rgba(var(--love-ink-rgb), 0.62);
+  transition: color var(--transition-fast);
+}
+
+.md-footer-nav__link:hover {
+  color: var(--love-primary);
+}
+
+.md-footer-copyright {
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
 }
 
 /* ====================
@@ -202,35 +342,69 @@ body {
   animation: fadeIn 0.6s var(--ease-out);
 }
 
-/* 一级标题：衬线 + 双色渐变下划线 */
+/* 一级标题：刊头式 —— 通栏发丝线 + 短渐变条 */
 .md-typeset h1 {
   position: relative;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--love-line);
   font-family: var(--font-display);
-  animation: slideInLeft 0.6s var(--ease-out);
+  font-weight: 600;
+  letter-spacing: 0.05em;
 }
 
 .md-typeset h1::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
-  width: 60px;
+  width: 64px;
   height: 3px;
   background: linear-gradient(90deg,
     var(--love-primary),
-    var(--love-blue));
+    var(--love-sage));
   border-radius: 2px;
 }
 
+/* 二级标题（日期章节）：菱形日期章 + 衬线 + 发丝线 */
 .md-typeset h2 {
-  border-left: 3px solid var(--love-primary);
-  padding-left: 0.8rem;
+  margin-top: 2.9rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--love-line);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.32rem;
+  letter-spacing: 0.04em;
 }
 
+.md-typeset h2::before {
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 0.65rem;
+  background: var(--love-primary);
+  transform: rotate(45deg) translateY(-1px);
+}
+
+/* 三级标题（城市/小节）：赤陶衬线，斜体英文更优雅 */
+.md-typeset h3 {
+  margin-top: 2.3rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.12rem;
+  letter-spacing: 0.06em;
+  color: var(--love-primary-deep);
+}
+
+[data-md-color-scheme="slate"] .md-typeset h3 {
+  color: var(--love-primary);
+}
+
+/* 正文：阅读宽度收窄，照片可全宽（编辑式对比） */
 .md-typeset p {
-  line-height: 1.8;
+  line-height: 1.9;
   margin: 1.5em 0;
+  max-width: 44em;
 }
 
 /* 引用块：玫瑰雾面 + 右上角小爱心 */
@@ -275,6 +449,74 @@ body {
 
 .md-typeset img:hover {
   box-shadow: var(--shadow-lift);
+}
+
+/* ====================
+   6.5 照片系统：photo-row
+   按宽高比分配 flex-grow —— 同行天然等高、零裁切
+   （--ar 由构建脚本读取真实图片尺寸写入）
+   ==================== */
+
+.md-typeset .photo-row {
+  display: block;
+  width: 100%;
+  margin: 1.8rem 0 0.6rem;
+}
+
+/* 图片行：独立 flex 容器，按宽高比分配 flex-grow —— 同行天然等高、零裁切
+   （--ar 由构建脚本读取真实图片尺寸写入；figcaption 不在此容器内，
+   否则 Chromium 下同行图片会塌陷） */
+.md-typeset .photo-row__imgs {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.md-typeset .photo-row__imgs img {
+  flex: var(--ar, 1) 1 0;
+  min-width: 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 6px;
+  border: 1px solid var(--love-line);
+  box-shadow: var(--shadow-soft);
+}
+
+.md-typeset .photo-row__imgs img:hover {
+  box-shadow: var(--shadow-lift);
+}
+
+/* 图注：照片下方的小字，与引用块彻底分开 */
+.md-typeset .photo-row figcaption {
+  display: block;
+  margin: 0.55rem 0 0;
+  padding: 0 0.2rem;
+  font-size: 0.78rem;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: rgba(var(--love-ink-rgb), 0.58);
+  text-align: center;
+}
+
+/* 单张照片：居中、不收满整栏 */
+.md-typeset .photo-row--single .photo-row__imgs {
+  justify-content: center;
+}
+
+.md-typeset .photo-row--single .photo-row__imgs img {
+  flex: 0 1 auto;
+  width: auto;
+  max-width: min(72%, 540px);
+}
+
+@media screen and (max-width: 768px) {
+  .md-typeset .photo-row__imgs {
+    gap: 0.5rem;
+  }
+
+  .md-typeset .photo-row--single .photo-row__imgs img {
+    max-width: 92%;
+  }
 }
 
 /* ====================
@@ -421,7 +663,7 @@ body:has(.login-page) {
   background-color: var(--love-bg);
   background-image:
     radial-gradient(52vw 52vw at 82% 8%, rgba(var(--love-primary-rgb), 0.12), transparent 70%),
-    radial-gradient(46vw 46vw at 12% 92%, rgba(var(--love-blue-rgb), 0.12), transparent 70%);
+    radial-gradient(46vw 46vw at 12% 92%, rgba(var(--love-sage-rgb), 0.12), transparent 70%);
 }
 
 /* 隐藏 docs 外壳与自动生成的页面标题，登录页只剩中央卡片 */
@@ -465,7 +707,7 @@ body:has(.login-page) .md-typeset > h1:first-child {
   font-family: var(--font-mono);
   font-size: 0.62rem;
   letter-spacing: 0.26em;
-  color: var(--love-blue);
+  color: var(--love-sage);
   text-align: center;
   line-height: 1.6;
 }
@@ -481,6 +723,11 @@ body:has(.login-page) .md-typeset > h1:first-child {
   color: var(--love-ink);
   text-align: center;
   animation: none;
+}
+
+/* 登录标题不需要全局 h2 的菱形日期章 */
+.md-typeset .login-title::before {
+  display: none;
 }
 
 .md-typeset .login-sub {

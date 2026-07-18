@@ -51,7 +51,8 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.betterem:
-      smart_enable: all
+      # 关闭智能边界检测：中文语境下 **粗体**后紧跟汉字会被误判为字面星号
+      smart_enable: none
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
