@@ -38,13 +38,21 @@ function initScrollAnimation() {
     });
   }, observerOptions);
 
-  // 观察需要动画的元素
+  // 观察需要动画的元素（内页排版元素 + 首页分区组件）
   const animatedElements = document.querySelectorAll(
     '.md-typeset h2, .md-typeset h3, .md-typeset p, ' +
-    '.md-typeset img, .md-typeset blockquote'
+    '.md-typeset img, .md-typeset blockquote, ' +
+    '.home-section__head, .tl-item, .film-card, .home-letter__inner'
   );
 
   animatedElements.forEach(el => {
+    // hero 有自己的入场动画，不参与滚动淡入
+    if (el.closest('.home-hero')) return;
+    // 首页门面内只动画分区组件，普通元素由组件级类控制
+    if (el.closest('.home') &&
+        !el.matches('.home-section__head, .tl-item, .film-card, .home-letter__inner')) {
+      return;
+    }
     el.classList.add('fade-in-element');
     fadeInObserver.observe(el);
   });
